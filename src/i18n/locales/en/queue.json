@@ -1,0 +1,15 @@
+{
+  "status": "Generation Queue Status",
+  "queued": "Queued",
+  "processing": "Processing",
+  "averageTime": "Average processing time:",
+  "currentlyProcessing": "Currently Processing:",
+  "queueTitle": "Queue:",
+  "moreInQueue": "{count} more in queue",
+  "pending": "pending",
+  "processingDots": "Processing...",
+  "updated": "Updated {time}",
+  "allComplete": "All Complete",
+  "loading": "Loading...",
+  "error": "Error"
+} 

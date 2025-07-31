@@ -1,0 +1,439 @@
+{
+  "title": "記事ライブラリ",
+  "subtitle": "生成された記事を閲覧、管理、編集できます。",
+  "loading": "記事を読み込み中...",
+  "loadingListing": "記事を読み込み中...",
+  "error": {
+    "title": "申し訳ございません。問題が発生しました。",
+    "tryAgain": "再試行",
+    "fetchFailed": "記事の読み込みに失敗しました。",
+    "archiveFailed": "アーカイブに失敗しました。再試行してください。"
+  },
+  "buttons": {
+    "newArticle": "新規記事",
+    "search": "検索",
+    "edit": "記事を編集",
+    "archive": "アーカイブ",
+    "previous": "前へ",
+    "next": "次へ"
+  },
+  "filters": {
+    "titleSearch": "タイトル検索",
+    "titlePlaceholder": "記事タイトルで検索...",
+    "status": "ステータス",
+    "statusPlaceholder": "ステータスを選択",
+    "writingPurpose": "執筆目的",
+    "purposePlaceholder": "目的で検索...",
+    "audience": "オーディエンス", 
+    "audiencePlaceholder": "オーディエンスで検索..."
+  },
+  "statusOptions": {
+    "all": "すべてのステータス",
+    "queued": "待機中",
+    "processing": "処理中",
+    "draft": "下書き",
+    "pendingPublish": "公開待ち",
+    "published": "公開済み",
+    "archived": "アーカイブ済み",
+    "generationFailed": "生成失敗"
+  },
+  "statusDisplay": {
+    "pending_publish": "公開待ち",
+    "generation_failed": "生成失敗",
+    "published": "公開済み",
+    "draft": "下書き",
+    "archived": "アーカイブ済み",
+    "queued": "待機中",
+    "processing": "処理中"
+  },
+  "table": {
+    "headers": {
+      "title": "タイトル",
+      "status": "ステータス",
+      "writingPurpose": "執筆目的",
+      "targetAudience": "オーディエンス",
+      "details": "詳細",
+      "actions": "アクション"
+    },
+    "statusMessages": {
+      "processing": "コンテンツを処理中...",
+      "queued": "処理待機中...",
+      "generationFailed": "生成失敗 - 編集できません",
+      "cannotEditGenFailed": "編集できません - 生成失敗",
+      "beingGenerated": "記事を生成中です"
+    },
+    "noData": "データなし"
+  },
+  "emptyState": {
+    "noArticles": "条件に一致する記事が見つかりません。",
+    "adjustFilters": "フィルターを調整またはクリアしてみてください。"
+  },
+  "archive": {
+    "confirm": "記事\"{title}\"をアーカイブしてもよろしいですか？",
+    "loading": "記事をアーカイブ中...",
+    "success": "記事\"{title}\"がアーカイブされました。"
+  },
+  "newArticle": {
+    "title": "新規記事作成",
+    "description": "アウトラインを選択し、詳細を設定して新しい記事を作成します。",
+    "form": {
+      "selectOutline": {
+        "label": "アウトライン選択",
+        "placeholder": "アウトラインを選択..."
+      },
+      "styleProfile": {
+        "label": "スタイルプロフィール",
+        "derived": "（アウトラインから取得）"
+      },
+      "targetAudience": {
+        "label": "オーディエンス",
+        "recommended": "推奨：",
+        "custom": "カスタムオーディエンス",
+        "customPlaceholder": "カスタムオーディエンスを入力...",
+        "selectOrCustom": "推奨オーディエンスを選択するかカスタムオーディエンスを入力"
+      },
+      "merchandise": {
+        "label": "商材",
+        "derived": "（選択されたアウトラインから）",
+        "none": "なし"
+      },
+      "writingPurpose": {
+        "label": "執筆目的",
+        "description": "一つ以上の目的を選択するか、カスタム目的を追加してください：",
+        "predefined": {
+          "awareness": "ブランド認知",
+          "leadgen": "リード獲得", 
+          "education": "教育・啓発",
+          "branding": "ブランディング",
+          "sales": "販売促進",
+          "retention": "顧客維持",
+          "seo": "SEO対策",
+          "recruitment": "採用PR"
+        },
+        "predefinedDescriptions": {
+          "awareness": "ブランドの知名度向上",
+          "leadgen": "新規見込み客の獲得",
+          "education": "ユーザーに知識とスキルを提供",
+          "branding": "ブランドイメージの強化",
+          "sales": "商材・サービスの販売促進",
+          "retention": "既存顧客との関係維持",
+          "seo": "検索エンジン最適化",
+          "recruitment": "人材獲得と雇用ブランドの推進"
+        },
+        "customInput": "カスタム目的を追加...",
+        "addCustom": "カスタム追加",
+        "customEmpty": "カスタム目的は空にできません。",
+        "customExists": "\"{purpose}\"は既にカスタム目的です。"
+      }
+    },
+    "buttons": {
+      "cancel": "キャンセル",
+      "create": "記事を作成"
+    },
+    "validation": {
+      "selectOutline": "アウトラインを選択してください。",
+      "enterCustomAudience": "カスタムオーディエンスを入力してください。",
+      "selectOrEnterAudience": "オーディエンスを選択するかカスタムオーディエンスを入力してください。",
+      "selectPurpose": "少なくとも一つの執筆目的を選択してください。"
+    },
+    "loading": {
+      "outlines": "アウトラインを読み込み中...",
+      "creating": "記事を作成中..."
+    },
+    "toast": {
+      "outlinesFailed": "アウトラインの読み込みに失敗しました。",
+      "createSuccess": "記事の作成を開始しました。進行状況はキューステータスでご確認ください。",
+      "createFailed": "記事の作成に失敗しました。再試行してください。"
+    }
+  },
+  "editor": {
+    "loading": {
+      "article": "記事を読み込み中...",
+      "saving": "保存中...",
+      "updating": "更新中..."
+    },
+    "error": {
+      "loadFailed": "記事の読み込みに失敗したか、記事が見つかりません。",
+      "displayError": "記事コンテンツの表示でエラーが発生しました。",
+      "aiDataFormat": "AIが返したデータ形式にエラーがあります",
+      "localStorageFull": "画像の状態をローカルに保存できませんでした。ローカルストレージが満杯の可能性があります。",
+      "loadImageStates": "エラーにより画像の状態を読み込めませんでした。キャッシュがクリアされた可能性があります。",
+      "missingArticleId": "記事IDが不足しています。"
+    },
+    "navigation": {
+      "backToArticles": "記事",
+      "untitledArticle": "無題の記事"
+    },
+    "toolbar": {
+      "save": "保存",
+      "saving": "保存中...",
+      "autoSaving": "自動保存中...",
+      "autoSaved": "自動保存",
+      "unsavedChanges": "未保存の変更",
+      "publish": "公開",
+      "publishing": "更新中...",
+      "toDraft": "下書きに戻す",
+      "generateLogs": "生成ログ",
+      "viewAnalysis": "生成ログを確認",
+      "undo": "元に戻す",
+      "redo": "やり直し",
+      "bold": "太字",
+      "italic": "斜体",
+      "underline": "下線",
+      "strikethrough": "取り消し線",
+      "code": "コード",
+      "paragraph": "段落",
+      "heading1": "見出し 1",
+      "heading2": "見出し 2",
+      "heading3": "見出し 3",
+      "bulletList": "箇条書きリスト",
+      "orderedList": "番号付きリスト",
+      "quote": "引用",
+      "insertCallout": "コールアウト挿入",
+      "note": "注記",
+      "tip": "ヒント",
+      "warning": "警告",
+      "important": "重要",
+      "caution": "注意",
+      "removeCallout": "コールアウト削除",
+      "insertLink": "リンク挿入",
+      "insertImage": "画像挿入",
+      "aiPolish": "AI Polish",
+      "aiAssistant": "AI Polish",
+      "alignLeft": "左揃え",
+      "alignCenter": "中央揃え",
+      "alignRight": "右揃え",
+      "format": "フォーマット",
+      "insertLinkDialog": {
+        "title": "リンク挿入",
+        "description": "リンクURLを入力してください",
+        "placeholder": "https://example.com"
+      },
+      "insertImageDialog": {
+        "title": "画像挿入",
+        "description": "画像URLを入力してください",
+        "placeholder": "https://example.com/image.jpg"
+      }
+    },
+    "content": {
+      "placeholder": "素晴らしい記事を書き始めましょう...",
+      "close": "閉じる"
+    },
+    "imageManagement": {
+      "title": "画像管理",
+      "addImage": "画像を追加",
+      "aiGenerate": "AI生成",
+      "aiGenerateDesc": "AIプロンプトで作成",
+      "uploadImage": "画像をアップロード", 
+      "uploadImageDesc": "ローカルファイルをアップロード",
+      "noPlaceholders": "画像プレースホルダーはまだ追加されていません。「AI生成」または「アップロード」をクリックして開始してください。",
+      "loadingControls": "画像コントロールを読み込み中...",
+      "imagePreview": "画像プレビュー"
+    },
+    "imageControl": {
+      "missing": "欠陥",
+      "missingTooltip": "現在のコンテンツにプレースホルダーが見つかりません",
+      "promptPlaceholder": "{tag}の画像プロンプトを入力",
+      "selectFile": "画像ファイルを選択",
+      "replaceFile": "置換: {filename}",
+      "selectedFile": "選択済み: {filename}",
+      "generating": "画像を生成中...",
+      "uploading": "画像をアップロード中...",
+      "generateFailed": "エラー: {error}",
+      "unknownError": "不明なエラー",
+      "generateBtn": "画像を生成",
+      "regenerateBtn": "再生成", 
+      "generatingBtn": "生成中...",
+      "insert": "挿入",
+      "aiType": "AI生成",
+      "uploadType": "アップロード"
+    },
+    "imageGenControl": {
+      "placeholder": "プレースホルダー：",
+      "promptPlaceholder": "{tag}の画像生成プロンプトを入力...",
+      "generating": "画像生成中...",
+      "generateFailed": "画像生成に失敗しました",
+      "previewArea": "画像プレビューエリア",
+      "generateButton": "画像生成 (Flow 6)",
+      "generatingButton": "生成中...",
+      "copyMarkdown": "Markdownをコピー",
+      "reasonLabel": "理由：",
+      "toast": {
+        "markdownCopied": "画像Markdownがクリップボードにコピーされました！",
+        "copyFailed": "markdownのコピーに失敗しました。",
+        "noImageUrl": "コピー可能な生成画像URLがありません。"
+      }
+    },
+    "aiActions": {
+      "improve": "文章を改善する",
+      "grammar": "スペルと文法をチェック",
+      "summarize": "要約",
+      "shorter": "短くする",
+      "longer": "詳しく展開"
+    },
+    "confirmDialog": {
+      "publishTitle": "記事を公開",
+      "publishDesc": "この記事を公開してもよろしいですか？オーディエンスに表示されます。",
+      "publishConfirm": "今すぐ公開",
+      "draftTitle": "下書きに移動", 
+      "draftDesc": "この記事を下書き状態に戻してもよろしいですか？",
+      "draftConfirm": "下書きに移動",
+      "cancel": "キャンセル"
+    },
+    "toast": {
+          "saveSuccess": "記事が正常に保存されました！",
+    "saveFailed": "記事の保存に失敗しました: {error}",
+    "imagesStillGenerating": "注意：{count}枚の画像がまだ生成中です（{tags}）。保存前に完了を待つことをお勧めします",
+      "statusUpdateSuccess": "記事のステータスが{status}に更新されました！",
+      "statusUpdateFailed": "記事のステータス更新に失敗しました: {error}",
+      "aiActionFailed": "AIアクションが失敗しました: {error}",
+      "imageGenerateSuccess": "画像が正常に生成されました！",
+      "imageGenerateFailed": "画像の生成に失敗しました: {error}",
+      "imageUploadSuccess": "画像が正常にアップロードされました！",
+      "imageUploadFailed": "画像のアップロードに失敗しました: {error}",
+      "imageInsertSuccess": "画像が記事に挿入されました！",
+      "contentRequired": "記事を保存するにはコンテンツが必要です。",
+      "invalidFile": "有効な画像ファイルを選択してください。",
+      "promptRequired": "画像のプロンプトを入力してください。",
+      "imageInsertedAtCursor": "画像がカーソル位置に挿入されました！",
+      "failedToInsertImage": "画像の挿入に失敗しました: {error}",
+      "couldNotReplaceplaceholder": "画像の挿入に失敗しました: プレースホルダーを置換できませんでした",
+      "imageHtmlCopiedToClipboard": "画像HTMLがクリップボードにコピーされました！",
+      "addedNewPlaceholder": "新しい{type}プレースホルダーを追加しました: {tag}。エディターで移動できます。",
+      "teamInfoMissing": "チーム情報が不足しています。画像を生成できません。",
+      "generatingImage": "{tag}の画像を生成中...",
+      "imageGenerateSuccess": "{tag}の画像が正常に生成されました！",
+      "imageGenerateFailed": "画像の生成に失敗しました: {error}",
+      "invalidImageControl": "アップロード用の無効な画像コントロールです。",
+      "uploadingImage": "{tag}の画像をアップロード中...",
+      "imageUploadSuccess": "{tag}の画像が正常にアップロードされました！",
+      "imageUploadFailed": "画像のアップロードに失敗しました: {error}",
+      "imageNotReady": "画像は挿入準備ができていません。"
+    },
+    "insertImageDialog": {
+      "placeholderNotFound": "プレースホルダーが見つかりません",
+      "placeholderNotFoundDesc": "現在のコンテンツにプレースホルダー {tag} が見つかりません。",
+      "editedContentNote": "これは、コンテンツを編集してプレースホルダーを削除したためかもしれません。",
+      "chooseHowToHandle": "処理方法を選択してください：",
+      "insertAtCursor": "カーソル位置に挿入",
+      "insertAtCursorDesc": "エディターの現在のカーソル位置に画像を挿入",
+      "copyToClipboard": "クリップボードにコピー", 
+      "copyToClipboardDesc": "手動貼り付け用に画像HTMLをクリップボードにコピー",
+      "manualCopyHtml": "手動でHTMLをコピー",
+      "unableToCopyToClipboard": "自動的にクリップボードにコピーできません。以下のHTMLコードを手動でコピーしてください：",
+      "iveCopied": "コピーしました",
+      "close": "閉じる"
+    },
+    "aiToolbar": {
+      "noContentToProcess": "処理するコンテンツがありません。テキストを選択するかコンテンツを追加してください。",
+      "customAiRequest": "カスタムAIリクエスト",
+      "aiProcessing": "AI処理中",
+      "aiProcessingCompleted": "AI処理が完了しました！"
+    },
+    "aiResultModal": {
+      "title": "AI処理結果",
+      "loading": "AIが処理中です...",
+      "iteratedBadge": "{times}回繰り返し処理済み",
+      "sections": {
+        "original": "元の文章",
+        "aiSuggestion": "AI提案",
+        "iteratedLabel": "（繰り返し処理済み）",
+        "currentVersion": "現在のバージョン"
+      },
+      "states": {
+        "noChanges": "コンテンツに変更なし",
+        "editingMode": "編集モード"
+      },
+      "buttons": {
+        "edit": "編集",
+        "optimize": "最適化",
+        "cancel": "キャンセル",
+        "save": "保存",
+        "accept": "提案を採用",
+        "reject": "拒否",
+        "viewComparison": "比較表示"
+      },
+      "placeholders": {
+        "editContent": "AI提案のコンテンツを編集...",
+        "chatInput": "ご希望の調整をお聞かせください。例：より簡潔にしてください..."
+      },
+      "chat": {
+        "initialMessage": "テキストを最適化いたしました。他にどのような調整をご希望でしょうか？例えば：\\n\\n• \"より簡潔にしてください\"\\n• \"より専門的な口調にしてください\"\\n• \"詳細を追加してください\"\\n• \"別の表現を使ってください\"",
+        "adjustedPrefix": "ご要望に応じて調整いたしました：\\n\\n",
+        "errorMessage": "申し訳ございません、リクエストの処理中にエラーが発生しました。",
+        "errorCauses": "考えられる原因：\\n• ネットワーク接続の問題\\n• AIサービスが一時的に利用できません\\n• リクエスト形式のエラー",
+        "formatErrorMessage": "サーバーから異常なデータ形式が返されました。後でもう一度お試しください。",
+        "unknownError": "不明なエラーです。後でもう一度お試しください。",
+        "errorDetails": "エラーの詳細：{error}",
+        "userLabel": "あなた",
+        "assistantLabel": "AIアシスタント",
+        "thinking": "考え中...",
+        "processing": "AIがリクエストを処理中です..."
+      }
+    },
+    "aiFloatingPanel": {
+      "title": "AI Polish",
+              "customMode": {
+          "placeholder": "何をしたいか説明してください...",
+        "execute": "実行",
+        "cancel": "キャンセル",
+        "switchTo": "カスタムプロンプトに切り替え"
+      },
+      "actions": {
+        "improve": "文章を改善する",
+        "grammar": "スペルと文法をチェック",
+        "summarize": "要約",
+        "shorter": "短縮",
+        "longer": "拡張"
+      },
+      "translate": {
+        "title": "翻訳先",
+        "languages": {
+          "en": "英語",
+          "zh": "中国語",
+          "ja": "日本語",
+          "fr": "フランス語",
+          "de": "ドイツ語",
+          "pt": "ポルトガル語",
+          "es": "スペイン語",
+          "ko": "韓国語",
+          "ru": "ロシア語",
+          "it": "イタリア語",
+          "ar": "アラビア語",
+          "th": "タイ語"
+        }
+      },
+      "length": {
+        "title": "長さ調整"
+      },
+      "customPrompt": {
+        "placeholder": "カスタム指示を入力...",
+        "execute": "実行"
+      },
+      "languageSelection": {
+        "title": "対象言語を選択",
+        "placeholder": "言語を選択...",
+        "search": "言語を検索...",
+        "translate": "翻訳先"
+      },
+      "actionsPrompt": "以下の操作を実行できます：",
+      "selectedTextPrompt": "選択されたテキストは、選択したアクションで処理されます",
+      "dragToMove": "ドラッグしてパネルを移動",
+      "close": "閉じる"
+    },
+    "callouts": {
+      "note": "注記",
+      "tip": "ヒント",
+      "warning": "警告",
+      "important": "重要",
+      "caution": "注意",
+      "cycleTooltip": "コールアウトタイプを切り替える (現在: {type})"
+    },
+    "selectionMenu": {
+      "copy": "コピー",
+      "cut": "切り取り", 
+      "aiAssistant": "AI Publish",
+      "aiPolish": "AI Pulish"
+    }
+  }
+} 

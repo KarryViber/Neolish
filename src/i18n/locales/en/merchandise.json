@@ -1,0 +1,146 @@
+{
+  "title": "Merchandise",
+  "subtitle": "Manage your product information and assets for content creation.",
+  "loading": "Loading Merchandise...",
+  "error": {
+    "title": "Failed to Load Merchandise",
+    "tryAgain": "Try Again",
+    "noTeam": "Please ensure you are part of a team."
+  },
+  "search": {
+    "placeholder": "Search by name, summary, or tag..."
+  },
+  "emptyState": {
+    "withSearch": "No merchandise found matching your search.",
+    "withoutSearch": "No merchandise items yet.",
+    "searchHint": "Try adjusting your search terms.",
+    "addHint": "Get started by adding new merchandise."
+  },
+  "buttons": {
+    "newMerchandise": "New Merchandise",
+    "edit": "Edit",
+    "delete": "Delete",
+    "back": "Back",
+    "cancel": "Cancel",
+    "analyzeFile": "Analyze File",
+    "analyzeUrl": "Analyze URL",
+    "close": "Close",
+    "saveChanges": "Save Changes",
+    "createMerchandise": "Create Merchandise"
+  },
+  "card": {
+    "createdBy": "Created by:",
+    "created": "Created:",
+    "noSummary": "No summary available.",
+    "moreItems": "+{count} more"
+  },
+  "sourceType": {
+    "url": "url",
+    "file": "file", 
+    "manual": "manual"
+  },
+  "tagInput": {
+    "placeholder": "Add a tag and press Enter or comma...",
+    "removeLabel": "Remove {tag}",
+    "hint": "Press Enter or comma to add a tag. Use Backspace to remove the last tag if the input is empty."
+  },
+  "modal": {
+    "add": {
+      "selectMethod": {
+        "title": "New Merchandise - Select Method",
+        "description": "How would you like to add new merchandise?",
+        "enterManually": "Enter Manually",
+        "analyzeFromFile": "Analyze from File",
+        "analyzeFromUrl": "Analyze from URL"
+      },
+      "fileInput": {
+        "title": "New Merchandise - Analyze File",
+        "description": "Select a file to analyze. The content will be used to pre-fill the form.",
+        "uploadFile": "Upload File",
+        "uploadButton": "Upload PDF from Local",
+        "uploadHint": "Please upload a PDF file for analysis.",
+        "selected": "Selected: {filename}"
+      },
+      "urlInput": {
+        "title": "New Merchandise - Analyze URL",
+        "description": "Enter a URL to analyze. The content will be used to pre-fill the form.",
+        "enterUrl": "Enter URL",
+        "placeholder": "https://example.com/article"
+      },
+      "analyzing": {
+        "title": "Analyzing Content...",
+        "description": "Please wait while the content is being analyzed to create the item.",
+        "message": "Analyzing content, please wait..."
+      },
+      "form": {
+        "title": "New Merchandise - Review & Save",
+        "description": "Manually define a new merchandise item by providing its details."
+      }
+    },
+    "edit": {
+      "title": "Edit Merchandise: {name}",
+      "description": "Update the details of your merchandise item."
+    },
+    "preview": {
+      "title": "{name}",
+      "description": "View the details of this merchandise item."
+    }
+  },
+  "form": {
+    "name": {
+      "label": "Name",
+      "placeholder": "e.g., Eco-friendly Water Bottle"
+    },
+    "summary": {
+      "label": "Summary",
+      "placeholder": "Brief summary of the merchandise",
+      "noSummary": "No summary available."
+    },
+    "source": {
+      "label": "Source Type & Location",
+      "labels": {
+        "url": "Source URL",
+        "file": "Source File Reference",
+        "manual": "Source (Manual Entry)"
+      },
+      "placeholders": {
+        "url": "https://example.com",
+        "file": "e.g., my_document.pdf",
+        "manual": "Briefly describe the source"
+      }
+    },
+    "tags": {
+      "label": "Tags",
+      "placeholder": "Add tags like 'eco', 'tech', 'limited edition'...",
+      "noTags": "No tags assigned."
+    },
+    "metadata": {
+      "label": "Metadata",
+      "createdBy": "Created by",
+      "created": "Created",
+      "updated": "Updated"
+    },
+    "validation": {
+      "nameRequired": "Merchandise name is required."
+    }
+  },
+  "deleteConfirm": {
+    "title": "Are you sure you want to delete merchandise \"{name}\"?",
+    "message": "This action cannot be undone."
+  },
+  "toast": {
+    "createSuccess": "Merchandise item created successfully!",
+    "updateSuccess": "Merchandise item updated successfully!",
+    "deleteSuccess": "Merchandise item deleted successfully!",
+    "createError": "Failed to create merchandise item.",
+    "updateError": "Failed to update merchandise item.", 
+    "deleteError": "Failed to delete merchandise item.",
+    "loadError": "Failed to load merchandise items.",
+    "analysisError": "Analysis process failed",
+    "analysisSuccess": "Analysis completed successfully!",
+    "noFileSelected": "Please select a file first.",
+    "invalidUrl": "Please enter a valid URL.",
+    "sessionError": "Session error. Please try logging in again.",
+    "teamError": "Team information is missing."
+  }
+} 

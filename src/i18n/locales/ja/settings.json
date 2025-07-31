@@ -1,0 +1,198 @@
+{
+  "title": "設定",
+  "subtitle": "アカウント、チーム設定、アプリケーションの設定を構成します。",
+  "loading": "ユーザーセッションを読み込み中...",
+  "tabs": {
+    "profile": "プロフィール",
+    "team": "チーム"
+  },
+  "profile": {
+    "title": "プロフィール",
+    "subtitle": "個人情報とアカウント設定を管理します。",
+    "avatar": {
+      "buttons": {
+        "upload": "アバターをアップロード",
+        "change": "アバターを変更",
+        "save": "保存",
+        "cancel": "キャンセル",
+        "remove": "アバターを削除",
+        "uploading": "アップロード中...",
+        "removing": "削除中..."
+      },
+      "dialog": {
+        "title": "アバター編集",
+        "description": "新しいアバター画像をアップロードするか、現在のアバターを削除します。",
+        "fileRequirements": "JPG、PNG等の画像形式をサポート、ファイルサイズは5MB以下"
+      },
+      "messages": {
+        "uploadSuccess": "アバターのアップロードが完了しました",
+        "removeSuccess": "アバターの削除が完了しました"
+      },
+      "errors": {
+        "invalidFileType": "有効な画像ファイルを選択してください",
+        "fileTooLarge": "ファイルサイズは5MB以下である必要があります",
+        "uploadFailed": "アバターのアップロードに失敗しました",
+        "removeFailed": "アバターの削除に失敗しました"
+      },
+      "currentAvatar": "現在のアバター"
+    },
+    "basicInfo": {
+      "title": "基本情報",
+      "username": "ユーザー名",
+      "usernamePlaceholder": "ユーザー名を入力",
+      "email": "メールアドレス",
+      "emailPlaceholder": "メールアドレスを入力",
+      "editEmail": "メールアドレス編集",
+      "cancelEditEmail": "編集キャンセル",
+      "memberSince": "登録日：{date}",
+      "updateButton": "プロフィール更新",
+      "updating": "更新中..."
+    },
+    "security": {
+      "title": "セキュリティ設定",
+      "changePassword": "パスワード変更",
+      "currentPassword": "現在のパスワード",
+      "currentPasswordPlaceholder": "現在のパスワードを入力",
+      "newPassword": "新しいパスワード",
+      "newPasswordPlaceholder": "新しいパスワードを入力（6文字以上）",
+      "confirmPassword": "新しいパスワード確認",
+      "confirmPasswordPlaceholder": "新しいパスワードを再入力",
+      "updatePasswordButton": "パスワード更新",
+      "updatingPassword": "パスワード更新中..."
+    },
+    "messages": {
+      "profileUpdateSuccess": "プロフィールが正常に更新されました",
+      "profileUpdateError": "プロフィールの更新に失敗しました",
+      "passwordUpdateSuccess": "パスワードが正常に更新されました",
+      "passwordUpdateError": "パスワードの更新に失敗しました",
+      "passwordMismatch": "パスワードが一致しません",
+      "loading": "ユーザープロフィールを読み込み中...",
+      "loadError": "ユーザープロフィールの読み込みに失敗しました"
+    }
+  },
+  "teams": {
+    "title": "マイチーム",
+    "subtitle": "チームを管理し、メンバーを招待します。",
+    "noTeams": "まだどのチームにも参加していません。",
+    "memberCount": "{count} 人のメンバー",
+    "yourRole": "あなたの役割：",
+    "manage": "管理",
+    "createdAt": "作成日",
+    "common": {
+      "invalidDate": "無効な日付",
+      "failedToFetchMembers": "メンバーの取得に失敗しました",
+      "failedToFetchInvitations": "招待コードの取得に失敗しました"
+    },
+    "members": {
+      "title": "メンバー",
+      "noMembers": "このチームにメンバーが見つかりません。",
+      "manage": "管理",
+      "roles": {
+        "OWNER": "所有者",
+        "ADMIN": "管理者",
+        "MEMBER": "メンバー"
+      }
+    },
+    "stats": {
+      "articles": "記事",
+      "images": "画像",
+      "styleProfiles": "スタイル",
+      "audiences": "オーディエンス"
+    },
+    "inviteInfo": {
+      "codeLabel": "招待コード",
+      "emailLabel": "招待メール",
+      "linkLabel": "登録リンク",
+      "instructionText": "登録時に招待コードを入力してください"
+    },
+    "createNew": {
+      "title": "新しいチームを作成",
+      "subtitle": "新しいチームに名前を付けてください。",
+      "teamName": "チーム名",
+      "teamNamePlaceholder": "私の素晴らしいチーム",
+      "description": "これがあなたのチームの名前になります。",
+      "createButton": "チームを作成",
+      "creatingButton": "作成中..."
+    },
+    "generateCode": {
+      "title": "新しいメンバーを招待",
+      "emailPlaceholder": "コード生成用のメールアドレスを入力",
+      "generateButton": "コードを生成",
+      "generatingButton": "生成中...",
+      "successMessage": "コード：{code}（コピー済み！）",
+      "failedToGenerate": "コード生成に失敗しました",
+      "apiNoCode": "APIがコードを返しませんでした。"
+    },
+    "invitations": {
+      "title": "未使用の招待コード",
+      "noInvitations": "未使用の招待コードはありません",
+      "loading": "招待コードを読み込み中...",
+      "error": "招待コードの読み込みエラー",
+      "actions": {
+        "copy": "コピー",
+        "revoke": "取り消し",
+        "revoking": "取り消し中...",
+        "confirmRevoke": "この招待コードを取り消しますか？この操作は元に戻せません。"
+      },
+      "createdAt": "作成日：{date}",
+      "copySuccess": "招待情報をクリップボードにコピーしました",
+      "revokeSuccess": "招待コードが正常に取り消されました",
+      "revokeError": "招待コードの取り消しに失敗しました"
+    },
+    "management": {
+      "title": "チーム管理",
+      "subtitle": "チームメンバーを招待し、招待コードを管理します。"
+    },
+    "manageTeam": {
+      "title": "チーム管理",
+      "backToSettings": "設定に戻る",
+      "accessDenied": {
+        "title": "アクセス拒否",
+        "description": "チーム管理ページにアクセスできるのは、チームオーナーと管理者のみです。",
+        "backButton": "設定に戻る"
+      },
+      "members": {
+        "title": "メンバー",
+        "subtitle": "チームメンバーを表示・管理します。",
+        "noMembers": "このチームにメンバーが見つかりません。",
+        "manage": "管理",
+        "tableHeaders": {
+          "username": "ユーザー名",
+          "email": "メール",
+          "role": "役割",
+          "joinedTeam": "チーム参加日",
+          "actions": "操作"
+        },
+        "roles": {
+          "OWNER": "所有者",
+          "ADMIN": "管理者",
+          "MEMBER": "メンバー"
+        },
+        "actions": {
+          "changeRole": "役割を変更",
+          "removeMember": "メンバーを削除",
+          "confirmRemove": "メンバー {username} を削除しますか？この操作は元に戻せません。",
+          "roleUpdateSuccess": "メンバーの役割が正常に更新されました",
+          "roleUpdateError": "メンバーの役割の更新に失敗しました",
+          "memberRemoveSuccess": "メンバーが正常に削除されました",
+          "memberRemoveError": "メンバーの削除に失敗しました",
+          "updating": "更新中...",
+          "removing": "削除中...",
+          "cancel": "キャンセル"
+        }
+      },
+      "loading": "チームデータを読み込み中...",
+      "error": {
+        "title": "おっと！何かがうまくいきませんでした。",
+        "tryAgain": "再試行"
+      }
+    }
+  },
+  "errors": {
+    "fetchTeams": "エラー：{error}",
+    "createTeam": "{error}",
+    "fetchTeamsFailed": "チームの取得に失敗しました",
+    "createTeamFailed": "チームの作成に失敗しました",
+    "unexpectedError": "予期しないエラーが発生しました"
+  }
+} 

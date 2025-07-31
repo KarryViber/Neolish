@@ -1,0 +1,116 @@
+{
+  "title": "Outline Management",
+  "subtitle": "Create, manage, and refine content outlines for your articles.",
+  "loading": "Loading Outlines...",
+  "error": {
+    "title": "Oops! Something went wrong.",
+    "tryAgain": "Try Again"
+  },
+  "buttons": {
+    "newOutline": "New Outline",
+    "edit": "Edit",
+    "editOutline": "Edit Outline",
+    "delete": "Delete",
+    "save": "Save",
+    "cancel": "Cancel",
+    "close": "Close",
+    "generate": "Generate Outline",
+    "update": "Update Outline",
+    "expandAll": "Expand All",
+    "collapseAll": "Collapse All"
+  },
+  "search": {
+    "titleLabel": "Title Search",
+    "titlePlaceholder": "Search by outline title...",
+    "styleProfileLabel": "Style Profile",
+    "styleProfileAll": "All Style Profiles",
+    "styleProfileLoading": "Loading styles...",
+    "audienceTagsLabel": "Audience Tags Search",
+    "audienceTagsPlaceholder": "Search by audience tag..."
+  },
+  "emptyState": {
+    "noOutlines": "No outlines found. Click \"+ New Outline\" to create one."
+  },
+  "card": {
+    "untitledOutline": "(Untitled Outline)",
+    "noKeyPoints": "No key points provided.",
+    "moreItems": "+{count} more",
+    "style": "Style:",
+    "createdBy": "Created by:",
+    "created": "Created:",
+    "editTitle": "Edit Outline",
+    "deleteTitle": "Delete Outline"
+  },
+  "modal": {
+    "new": {
+      "title": "New Outline",
+      "description": "Create a new article outline to generate a structured content framework."
+    },
+    "edit": {
+      "title": "Edit Outline",
+      "description": "Modify the content, title, or other properties of an existing outline."
+    },
+    "view": {
+      "title": "Viewing Outline: {title}",
+      "description": "View the detailed content and related information of the outline.",
+      "noContent": "No content available.",
+      "suggestedAudiences": "Suggested Audiences:",
+      "noAudiences": "No audience suggestions for this outline."
+    },
+    "generating": {
+      "title": "Generating Outline...",
+      "message": "Please wait while the outline is being generated.",
+      "hint": "This may take a few moments."
+    }
+  },
+  "form": {
+    "title": {
+      "label": "Outline Title",
+      "placeholder": "Enter a descriptive title for your outline"
+    },
+    "keyPoints": {
+      "label": "Key Points",
+      "placeholder": "Enter the main points or topics you want to cover in your article...",
+      "hint": "Provide detailed key points to help generate a comprehensive outline."
+    },
+    "styleProfile": {
+      "label": "Style Profile",
+      "placeholder": "Select a style profile",
+      "loading": "Loading..."
+    },
+    "merchandise": {
+      "label": "Related Merchandise (Optional)",
+      "placeholder": "Select related merchandise",
+      "none": "None"
+    },
+    "content": {
+      "label": "Generated Content",
+      "placeholder": "The generated outline will appear here..."
+    },
+    "required": "*"
+  },
+  "validation": {
+    "titleRequired": "Please enter an Outline Title.",
+    "styleProfileRequired": "Please select a style profile.",
+    "keyPointsRequired": "Please enter the key points for your article.",
+    "updateMinimum": "At least Title, Content, or Key Points must have a value to update.",
+    "teamRequired": "Team information is not available. Please ensure you are logged in and part of a team."
+  },
+  "deleteConfirm": {
+    "message": "Are you sure you want to delete the outline \"{title}\"? This action cannot be undone."
+  },
+  "toast": {
+    "loadStyleProfilesError": "Could not load style profiles for filter dropdown.",
+    "fetchStyleProfilesError": "Failed to load style profiles.",
+    "fetchMerchandiseError": "Failed to load merchandise items.",
+    "updateSuccess": "Outline updated successfully!",
+    "deleteSuccess": "Outline \"{title}\" deleted successfully.",
+    "deleteError": "An unknown error occurred while deleting the outline.",
+    "fetchOutlinesError": "Could not load outlines.",
+    "noChanges": "No changes detected to save.",
+    "generateSuccess": "Outline generated successfully!",
+    "generateError": "Failed to generate outline. Please try again.",
+    "saveSuccess": "Outline saved successfully!",
+    "saveError": "Failed to save outline. Please try again."
+  }
+} 

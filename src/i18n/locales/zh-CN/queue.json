@@ -1,0 +1,15 @@
+{
+  "status": "生成队列状态",
+  "queued": "排队中",
+  "processing": "处理中",
+  "averageTime": "平均处理时间：",
+  "currentlyProcessing": "正在处理：",
+  "queueTitle": "队列：",
+  "moreInQueue": "队列中还有 {count} 个",
+  "pending": "待处理",
+  "processingDots": "处理中...",
+  "updated": "更新于 {time}",
+  "allComplete": "全部完成",
+  "loading": "加载中...",
+  "error": "错误"
+} 

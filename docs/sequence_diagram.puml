@@ -1,0 +1,80 @@
+@startuml
+title AI 内容写作工具 - 前后端交互流程
+
+actor 用户 as User
+participant "前端 (Web 应用)" as FE
+participant "后端 (API 服务器)" as BE
+participant "Dify 服务" as Dify
+participant "图像生成服务" as ImgSvc #LightBlue
+database 数据库 as DB
+participant "Note 服务 API" as NoteAPI #Gray
+
+skinparam sequenceMessageAlign center
+
+== 初始设置与配置 ==
+User -> FE : 访问应用 / 登录
+FE -> BE : 请求用户设置 (风格, 作者属性)
+BE -> DB : 查询设置
+DB --> BE : 返回设置
+BE --> FE : 发送设置
+FE -> User : 显示设置界面
+
+== 大纲生成 ==
+User -> FE : 输入要点, 选择配置, 请求生成大纲
+FE -> BE : POST /api/generate-outline (要点, 配置)
+note right of BE : 后端协调 AI 任务
+BE -> Dify : 调用 Dify 大纲生成 Flow API (要点, 配置)
+Dify --> BE : 返回生成的大纲 (JSON/文本)
+BE --> FE : 发送大纲
+FE -> User : 显示大纲供确认
+
+== 内容生成 ==
+User -> FE : 确认大纲, 请求生成内容
+FE -> BE : POST /api/generate-content (已确认大纲, 配置)
+note right of BE : 请求生成多个版本
+BE -> Dify : 调用 Dify 内容生成 Flow API (大纲, 配置, 版本数=3)
+Dify --> BE : 返回多个内容版本 (JSON 数组)
+BE --> FE : 发送内容版本
+FE -> User : 显示内容版本供选择
+
+== 编辑与保存 ==
+User -> FE : 选择版本, 在编辑器中编辑内容
+FE -> BE : PUT /api/save-draft (草稿ID, 编辑后内容)
+note right of BE : 持久化用户工作
+BE -> DB : 保存/更新草稿
+DB --> BE : 确认保存
+BE --> FE : 确认草稿已保存
+
+== 图像生成 (示例) ==
+User -> FE : 点击“生成图片” (针对占位符/提示词)
+FE -> BE : POST /api/generate-image (提示词)
+note right of BE : 调用专门的图像服务\n(替代方案: 调用另一个 Dify Flow)
+BE -> ImgSvc : 调用图像生成 API (提示词)
+ImgSvc --> BE : 返回图片 URL/数据
+BE --> FE : 发送图片 URL/数据
+FE -> User : 显示生成的图片
+User -> FE : 选择图片, 插入编辑器
+' 包含图片信息的草稿保存将遵循上面的保存模式
+
+== 最终优化 ==
+User -> FE : 请求最终优化
+FE -> BE : POST /api/optimize-content (当前含图片内容)
+note right of BE : 利用 Dify 进行润色
+BE -> Dify : 调用 Dify 优化 Flow API (内容)
+Dify --> BE : 返回优化后的内容
+BE --> FE : 发送优化后的内容
+FE -> User : 显示最终优化后的内容
+
+== 发布 (示例: Note) ==
+User -> FE : 点击“发布到 Note”
+FE -> BE : POST /api/publish/note (最终内容ID 或 数据)
+BE -> DB : (如果需要) 检索最终内容
+note right of BE : 格式化内容并调用外部 API
+BE -> BE : 为 Note 服务格式化内容
+' 假设直接调用 Note 服务 API
+BE -> NoteAPI : 发送格式化后的内容
+NoteAPI --> BE : 确认成功/失败
+BE --> FE : 发送发布状态
+FE -> User : 显示发布状态
+
+@enduml

@@ -1,0 +1,60 @@
+{
+  "title": "🚀 Neolish系统工作流程",
+  "steps": {
+    "styleProfiles": {
+      "title": "风格配置",
+      "description": "创建和管理写作风格配置"
+    },
+    "merchandise": {
+      "title": "商材管理",
+      "description": "管理产品信息和描述"
+    },
+    "outlines": {
+      "title": "生成大纲",
+      "description": "AI辅助文章大纲生成"
+    },
+    "articles": {
+      "title": "撰写文章",
+      "description": "使用AI辅助创建和编辑文章"
+    },
+    "publishing": {
+      "title": "发布内容",
+      "description": "多平台内容发布"
+    },
+    "step1": {
+      "title": "设置",
+      "description": "配置您的写作风格和产品",
+      "links": {
+        "setupStyleProfiles": "设置风格配置",
+        "manageMerchandise": "管理商材"
+      }
+    },
+    "step2": {
+      "title": "生成大纲",
+      "description": "AI辅助生成文章大纲",
+      "links": {
+        "viewOutlines": "查看大纲"
+      }
+    },
+    "step3": {
+      "title": "撰写文章",
+      "description": "在AI辅助下创建和编辑文章",
+      "links": {
+        "draftArticles": "起草文章"
+      }
+    },
+    "step4": {
+      "title": "发布",
+      "description": "将内容发布到多个平台",
+      "links": {
+        "startPublishing": "开始发布"
+      }
+    }
+  },
+  "arrows": {
+    "styleToOutlines": "风格指导内容创作",
+    "merchandiseToOutlines": "产品信息增强大纲",
+    "outlinesToArticles": "结构化写作基础",
+    "articlesToPublishing": "内容准备分发"
+  }
+} 

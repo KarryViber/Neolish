@@ -1,0 +1,40 @@
+{
+  "title": "ダッシュボード",
+  "welcome": "おかえりなさい",
+  "overview": "概要",
+  "description": "あなたの活動の概要とコア機能への素早いアクセス。",
+  "underDevelopment": "（ダッシュボードコンテンツは現在開発中です）",
+  "stats": {
+    "totalArticles": "記事総数",
+    "publishedArticles": "公開済み記事", 
+    "draftArticles": "下書き記事",
+    "totalViews": "総閲覧数",
+    "thisMonth": "今月",
+    "lastMonth": "先月",
+    "change": "変化"
+  },
+  "recentActivity": {
+    "title": "最近のアクティビティ",
+    "noActivity": "最近のアクティビティはありません",
+    "viewAll": "すべて表示"
+  },
+  "quickActions": {
+    "title": "クイックアクション",
+    "createArticle": "新しい記事を作成",
+    "createOutline": "アウトライン生成",
+    "createStyleProfile": "スタイルプロフィール作成",
+    "viewAnalytics": "分析を表示"
+  },
+  "recentArticles": {
+    "title": "最近の記事",
+    "noArticles": "記事がありません",
+    "createFirst": "最初の記事を作成",
+    "viewAll": "すべての記事を表示"
+  },
+  "performance": {
+    "title": "パフォーマンス",
+    "publishingRate": "公開頻度",
+    "engagementRate": "エンゲージメント率",
+    "averageLength": "平均文字数"
+  }
+} 

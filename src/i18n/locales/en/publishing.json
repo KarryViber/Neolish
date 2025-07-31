@@ -1,0 +1,245 @@
+{
+  "title": "Publish Articles",
+  "subtitle": "Select an article to configure its publication settings.",
+  "loading": {
+    "articles": "Loading Publishing Articles...",
+    "publishing": "Publishing in progress..."
+  },
+  "error": {
+    "fetchArticles": "Error fetching articles: {error}",
+    "refetchFailed": "Failed to re-fetch articles",
+    "reloadFailed": "Failed to reload articles"
+  },
+  "filters": {
+    "status": {
+      "label": "Filter Status",
+      "all": "All Status",
+      "pendingPublish": "PENDING PUBLISH",
+      "published": "PUBLISHED"
+    },
+    "search": {
+      "placeholder": "Search article titles..."
+    }
+  },
+  "table": {
+    "headers": {
+      "title": "Title",
+      "status": "Status", 
+      "details": "Details",
+      "actions": "Actions"
+    },
+    "actions": {
+      "viewSettings": "View Settings",
+      "configurePublish": "Configure & Publish"
+    },
+    "batch": {
+      "publish": "Batch Publish ({count})",
+      "delete": "Batch Delete"
+    },
+    "empty": {
+      "noArticles": "No articles available for publishing.",
+      "noResults": "No articles match the current filters."
+    }
+  },
+  "status": {
+    "pending": "PENDING PUBLISH",
+    "published": "PUBLISHED",
+    "draft": "DRAFT"
+  },
+  "steps": {
+    "selectPlatforms": "1. Select Platforms",
+    "configureCoverImage": "2. Cover Image", 
+    "adaptContentX": "3. Adapt for X",
+    "adaptContentWordPress": "4. Adapt for WordPress",
+    "previewAndPublish": "5. Preview & Publish",
+    "publishing": "Publishing",
+    "article": "Article",
+    "loading": "Loading...",
+    "buttons": {
+      "cancel": "Cancel",
+      "previous": "Previous",
+      "nextStep": "Next Step"
+    }
+  },
+  "stepper": {
+    "stepCounter": "Step {current} of {total}",
+    "progressComplete": "{percent}% Complete"
+  },
+  "platforms": {
+    "x": {
+      "name": "X",
+      "description": "Convert article to post thread"
+    },
+    "wordpress": {
+      "name": "WordPress", 
+      "description": "Publish to WordPress blog"
+    },
+    "note": {
+      "name": "Internal Note",
+      "description": "Save as internal note (Required)",
+      "required": "Required",
+      "noteText": "Internal Note is required and will always be published to save your content. You can select additional platforms for wider distribution."
+    }
+  },
+  "coverImage": {
+    "selectGenerationStyle": "Select Generation Style",
+    "referenceImage": "Reference Image",
+    "referenceImageNote": "If a reference image is provided, it will be prioritized and any selected preset style will be cleared.",
+    "localUpload": "Local Upload",
+    "imageUrl": "Image URL",
+    "limitReached": "(Limit Reached)",
+    "imageUrlPlaceholder": "Paste image URL https://...",
+    "addButton": "Add",
+    "prompt": "Prompt",
+    "aiAssist": "AI Assist",
+    "aiAssistGenerating": "Generating...",
+    "generatePrompt": "Generate Prompt",
+    "promptPlaceholder": "Enter a detailed prompt, e.g., a cute cat wearing an astronaut helmet, floating in space, with a starry galaxy background, digital art style.",
+    "generateImage": "Generate Image",
+    "generating": "Generating...",
+    "quickAdjustments": "Quick Adjustments",
+    "copyPrompt": "Copy Prompt",
+    "clearPrompt": "Clear Prompt",
+    "adjustments": {
+      "brighter": "Brighter",
+      "professional": "Professional",
+      "creative": "Creative",
+      "addTextSpace": "Add Text Space"
+    },
+    "finalCoverImage": "Final Cover Image",
+    "uploadFinalCover": "Upload/Replace Final Cover",
+    "removeCover": "Remove Cover",
+    "invalidFileData": "Invalid file data",
+    "previewError": "Preview error",
+    "removeImage": "Remove Image",
+    "removeImageUrl": "Remove Image URL",
+    "selectedLocalFile": "Selected local file: {filename}",
+    "showingAiGenerated": "Currently showing AI-generated cover.",
+    "previewAfterGeneration": "Preview will be shown here after generation or upload.",
+    "maxReferenceImages": "You can add a maximum of 1 reference image.",
+    "invalidImageUrl": "Please enter a valid image URL (http/https)!"
+  },
+  "xPreview": {
+    "postThread": "Post Thread",
+    "previewText": "Preview of how your thread will appear on X",
+    "userName": "Your Name",
+    "userHandle": "@yourname",
+    "timeAgo": "now",
+    "threadIndicator": "Thread {current}/{total}"
+  },
+  "xContentAdaptation": {
+    "title": "X Content Adaptation",
+    "generateButton": "Generate Post Thread",
+    "generating": "AI Generating...",
+    "description": "Convert your article into an engaging X post thread. AI will automatically break down your content into post-sized pieces.",
+    "editPanel": {
+      "title": "Edit Post Thread",
+      "description": "Edit your post content and manage thread posts",
+      "addThreadPost": "Add Thread Post",
+      "mainPost": "Main Post",
+      "post": "Post {number}",
+      "charactersCount": "{count}/280 characters",
+      "mainPostPlaceholder": "Enter your main post content...",
+      "threadPostPlaceholder": "Enter content for thread post {number}...",
+      "characterLimitError": "Post exceeds 280 character limit",
+      "removeThreadPost": "Remove this thread post"
+    },
+    "previewPanel": {
+      "title": "Live Preview",
+      "description": "See how your thread will appear on X platform",
+      "desktop": "Desktop",
+      "mobile": "Mobile"
+    },
+    "emptyState": {
+      "title": "No Post Thread Generated",
+      "description": "Click \"Generate Post Thread\" to automatically convert your article into a series of engaging posts using AI."
+    }
+  },
+  "previewAndPublish": {
+    "publishSummary": "Publish Summary",
+    "articleTitle": "Article Title",
+    "publishPlatforms": "Publish Platforms",
+    "contentSummary": "Content Summary",
+    "scheduledPublishTime": "Scheduled Publish Time",
+    "leaveEmptyToPublishImmediately": "Leave empty to publish immediately",
+    "coverPreview": "Cover Preview",
+    "noCoverImageSet": "No cover image set",
+    "defaultCoverWillBeUsed": "A default cover will be used",
+    "publishedSuccessfully": "Published Successfully!",
+    "publishedSuccessfullyDescription": "Your article has been published to all selected platforms. Redirecting to publishing dashboard...",
+    "publishFailed": "Publish Failed",
+    "failedToPublishArticle": "Failed to publish article",
+    "readyToPublish": "Ready to Publish",
+    "publishingInProgress": "Publishing in Progress...",
+    "publishingDescription": "Please wait while we publish your article to all selected platforms...",
+    "publishedDescription": "Your article is now live on all selected platforms",
+    "publishFailedDescription": "Please check the error above and try again",
+    "confirmDescription": "Confirm the information is correct, then click publish to complete the process",
+    "publishButton": "Publish Article",
+    "publishingButton": "Publishing...",
+    "publishedButton": "Published ✓",
+    "contentSummaryItems": {
+      "xThread": "X Thread: {count} posts prepared",
+      "coverImage": "Cover image: Ready",
+      "internalNote": "Internal Note: Will be saved automatically"
+    },
+    "platformNames": {
+      "x": "X (Twitter)",
+      "wordpress": "WordPress",
+      "note": "Internal Note"
+    }
+  },
+  "verticalStepper": {
+    "publishing": "Publishing",
+    "backToArticles": "Back to Articles"
+  },
+  "legacy": {
+    "steps": {
+      "selectPlatforms": {
+        "title": "Select Platforms",
+        "description": "Choose where you want to publish this article.",
+        "selected": "Selected: {platforms}",
+        "none": "None"
+      },
+      "configureCoverImage": {
+        "title": "Configure Cover Image",
+        "description": "Upload or generate a cover image.",
+        "stylePlaceholder": "Cover image style (e.g., photorealistic)",
+        "promptPlaceholder": "Cover image prompt",
+        "currentImageUrl": "Current Image URL: {url}",
+        "noImage": "None"
+      },
+      "adaptContentX": {
+        "title": "Adapt Content for X",
+        "description": "Review and edit generated posts.",
+        "postsPlaceholder": "Generated posts will appear here..."
+      },
+      "adaptContentWordPress": {
+        "title": "Configure for WordPress",
+        "description": "Set categories and tags.",
+        "categoriesPlaceholder": "Categories (comma-separated)",
+        "tagsPlaceholder": "Tags (comma-separated)"
+      },
+      "previewAndPublish": {
+        "title": "Preview & Publish",
+        "description": "Review all your settings before publishing."
+      }
+    },
+    "stepNames": {
+      "platforms": "Platforms",
+      "coverImage": "Cover Image",
+      "x": "X",
+      "wordpress": "WordPress", 
+      "publish": "Publish"
+    },
+    "buttons": {
+      "cancel": "Cancel",
+      "previous": "Previous",
+      "next": "Next",
+      "publishArticle": "Publish Article"
+    },
+    "messages": {
+      "loadingStep": "Loading step..."
+    }
+  }
+} 

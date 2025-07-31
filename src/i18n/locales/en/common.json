@@ -1,0 +1,55 @@
+{
+  "nav": {
+    "dashboard": "Dashboard",
+    "articles": "Articles",
+    "outlines": "Outlines",
+    "styleProfiles": "Style Profiles",
+    "merchandise": "Merchandise",
+    "publishing": "Publishing",
+    "settings": "Settings"
+  },
+  "common": {
+    "loading": "Loading...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "create": "Create",
+    "search": "Search",
+    "filter": "Filter",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "submit": "Submit",
+    "confirm": "Confirm",
+    "close": "Close",
+    "refresh": "Refresh",
+    "select": "Select",
+    "clear": "Clear",
+    "language": "Language",
+    "dialog": {
+      "linkUrl": "Link URL",
+      "imageUrl": "Image URL",
+      "inputContent": "Input Content",
+      "link": "link",
+      "image": "image",
+      "validationError": "Please enter a valid {type} URL"
+    }
+  },
+  "cancel": "Cancel",
+  "confirm": "Confirm",
+  "status": {
+    "success": "Success",
+    "error": "Error",
+    "warning": "Warning",
+    "info": "Information"
+  },
+  "time": {
+    "justNow": "Just now",
+    "minutesAgo": "{count} minutes ago",
+    "hoursAgo": "{count} hours ago",
+    "daysAgo": "{count} days ago",
+    "weeksAgo": "{count} weeks ago",
+    "monthsAgo": "{count} months ago"
+  }
+} 

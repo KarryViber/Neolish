@@ -1,0 +1,128 @@
+{
+  "title": "风格配置",
+  "subtitle": "创建和管理写作风格配置，确保内容语调和表达的一致性。",
+  "loading": "正在加载风格配置...",
+  "error": {
+    "title": "风格配置加载失败",
+    "tryAgain": "重试"
+  },
+  "search": {
+    "placeholder": "按名称、描述或风格特征搜索..."
+  },
+  "emptyState": {
+    "title": "未找到风格配置。",
+    "subtitle": "创建您的第一个风格配置开始使用。"
+  },
+  "buttons": {
+    "newProfile": "新建风格配置",
+    "editProfile": "编辑配置",
+    "deleteProfile": "删除配置",
+    "back": "返回",
+    "cancel": "取消",
+    "close": "关闭",
+    "analyzeCreate": "分析并创建",
+    "saveChanges": "保存更改"
+  },
+  "card": {
+    "noDescription": "暂无描述。",
+    "createdBy": "创建者：",
+    "updated": "更新时间："
+  },
+  "modal": {
+    "selectMethod": {
+      "title": "新建风格配置 - 选择方式",
+      "description": "您希望如何创建新的风格配置？",
+      "addManually": "手动添加",
+      "addViaUrl": "从URL分析"
+    },
+    "urlInput": {
+      "title": "新建风格配置 - URL分析",
+      "description": "提供文章URL，系统将自动分析其写作风格并创建配置。",
+      "profileName": "配置名称",
+      "profileNamePlaceholder": "例如：科技博客随性风格",
+      "articleUrls": "文章URL",
+      "articleUrlsPlaceholder": "输入一个或多个URL，每行一个：\nhttps://example.com/article1\nhttps://example.com/article2",
+      "required": "*"
+    },
+    "analyzing": {
+      "title": "正在分析内容...",
+      "description": "我们正在分析提供的URL以提取写作风格模式。",
+      "message": "正在从提供的URL分析写作风格。这可能需要一些时间..."
+    },
+    "manualForm": {
+      "title": "风格配置详情",
+      "description": "提供详细信息手动定义您的写作风格配置。"
+    },
+    "edit": {
+      "title": "编辑风格配置：{name}",
+      "description": "更新您的风格配置详情。"
+    },
+    "preview": {
+      "title": "风格配置：{name}",
+      "description": "查看此风格配置的详情。"
+    },
+    "delete": {
+      "confirm": "您确定要删除风格配置「{name}」吗？此操作无法撤销。"
+    }
+  },
+  "form": {
+    "name": {
+      "label": "配置名称",
+      "placeholder": "例如：科技博主随性风格",
+      "required": "*",
+      "noName": "无名称"
+    },
+    "description": {
+      "label": "描述",
+      "placeholder": "对此风格配置的简要描述。",
+      "noDescription": "暂无描述。"
+    },
+    "authorInfo": {
+      "label": "作者信息",
+      "placeholder": "描述作者的人格特征、专业领域、背景等。（例如：姓名：张三\\n专业领域：人工智能、创业\\n语调：专业但平易近人）",
+      "noAuthorInfo": "暂无作者信息。"
+    },
+    "styleFeatures": {
+      "label": "风格特征",
+      "placeholder": "写作风格的关键特点。（例如：- 使用简洁语言\\n- 偏好主动语态\\n- 包含要点列表以增强清晰度）",
+      "noStyleFeatures": "暂无风格特征。"
+    },
+    "sampleText": {
+      "label": "示例文本",
+      "placeholder": "提供一两段能体现此风格的示例文本。",
+      "noSampleText": "暂无示例文本。"
+    }
+  },
+  "toast": {
+    "loadError": "风格配置加载失败。",
+    "sessionMissing": "会话信息缺失。请重新登录。",
+    "createSuccess": "风格配置创建成功！",
+    "createError": "风格配置创建失败。",
+    "updateSuccess": "风格配置更新成功！",
+    "updateError": "风格配置更新失败。",
+    "deleteSuccess": "风格配置「{name}」删除成功。",
+    "deleteError": "风格配置删除失败。",
+    "analysisSuccess": "风格分析完成！",
+    "analysisError": "风格分析失败。请重试。",
+    "nameRequired": "配置名称为必填项。",
+    "urlRequired": "请提供至少一个文章URL。",
+    "invalidUrl": "请提供有效的文章URL。",
+    "noChanges": "未检测到更改。"
+  },
+  "addForm": {
+    "profileName": "配置文件名称",
+    "required": "*",
+    "namePlaceholder": "为配置文件输入唯一名称",
+    "description": "描述（可选）",
+    "descriptionPlaceholder": "描述写作风格或作者人设",
+    "saveButton": "保存配置文件",
+    "savingButton": "保存中...",
+    "validation": {
+      "nameRequired": "名称为必填项。"
+    },
+    "toast": {
+      "createSuccess": "风格配置文件创建成功！",
+      "createFailed": "发生了意外错误。"
+    }
+  }
+} 

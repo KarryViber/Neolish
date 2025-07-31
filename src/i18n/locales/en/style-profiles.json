@@ -1,0 +1,128 @@
+{
+  "title": "Style Profiles",
+  "subtitle": "Manage your writing style profiles and author personas.",
+  "loading": "Loading Style Profiles...",
+  "error": {
+    "title": "Failed to load style profiles",
+    "tryAgain": "Try Again"
+  },
+  "search": {
+    "placeholder": "Search by name, description, or style features..."
+  },
+  "emptyState": {
+    "title": "No style profiles found.",
+    "subtitle": "Create your first style profile to get started."
+  },
+  "buttons": {
+    "newProfile": "New Style Profile",
+    "editProfile": "Edit Profile",
+    "deleteProfile": "Delete Profile",
+    "back": "Back",
+    "cancel": "Cancel",
+    "close": "Close",
+    "analyzeCreate": "Analyze & Create",
+    "saveChanges": "Save Changes"
+  },
+  "card": {
+    "noDescription": "No description provided.",
+    "createdBy": "Created by:",
+    "updated": "Updated:"
+  },
+  "modal": {
+    "selectMethod": {
+      "title": "New Style Profile - Choose Method",
+      "description": "How would you like to create your new style profile?",
+      "addManually": "Add Manually",
+      "addViaUrl": "Analyze from URLs"
+    },
+    "urlInput": {
+      "title": "New Style Profile - URL Analysis",
+      "description": "Provide article URLs to analyze their writing style and create a profile automatically.",
+      "profileName": "Profile Name",
+      "profileNamePlaceholder": "e.g., Tech Blog Casual Style",
+      "articleUrls": "Article URLs",
+      "articleUrlsPlaceholder": "Enter one or more URLs, one per line:\nhttps://example.com/article1\nhttps://example.com/article2",
+      "required": "*"
+    },
+    "analyzing": {
+      "title": "Analyzing Content...",
+      "description": "We're analyzing the provided URLs to extract writing style patterns.",
+      "message": "Analyzing writing style from the provided URLs. This may take a moment..."
+    },
+    "manualForm": {
+      "title": "Style Profile Details",
+      "description": "Provide detailed information to define your writing style profile manually."
+    },
+    "edit": {
+      "title": "Edit Style Profile: {name}",
+      "description": "Update the details of your style profile."
+    },
+    "preview": {
+      "title": "Style Profile: {name}",
+      "description": "View the details of this style profile."
+    },
+    "delete": {
+      "confirm": "Are you sure you want to delete the style profile \"{name}\"? This action cannot be undone."
+    }
+  },
+  "form": {
+    "name": {
+      "label": "Profile Name",
+      "placeholder": "e.g., Tech Blogger Informal",
+      "required": "*",
+      "noName": "No Name"
+    },
+    "description": {
+      "label": "Description",
+      "placeholder": "A brief description of this style profile.",
+      "noDescription": "No description provided."
+    },
+    "authorInfo": {
+      "label": "Author Info",
+      "placeholder": "Describe the author's persona, expertise, background, etc. (e.g., Name: John Doe\\nExpertise: AI, Startups\\nTone: Professional but approachable)",
+      "noAuthorInfo": "No author information provided."
+    },
+    "styleFeatures": {
+      "label": "Style Features",
+      "placeholder": "Key characteristics of the writing style. (e.g., - Uses simple language\\n- Prefers active voice\\n- Includes bullet points for clarity)",
+      "noStyleFeatures": "No style features provided."
+    },
+    "sampleText": {
+      "label": "Sample Text",
+      "placeholder": "Provide a paragraph or two of text that exemplifies this style.",
+      "noSampleText": "No sample text provided."
+    }
+  },
+  "toast": {
+    "loadError": "Failed to load style profiles.",
+    "sessionMissing": "Session information is missing. Please log in again.",
+    "createSuccess": "Style profile created successfully!",
+    "createError": "Failed to create style profile.",
+    "updateSuccess": "Style profile updated successfully!",
+    "updateError": "Failed to update style profile.",
+    "deleteSuccess": "Style profile \"{name}\" deleted successfully.",
+    "deleteError": "Failed to delete style profile.",
+    "analysisSuccess": "Style analysis completed successfully!",
+    "analysisError": "Style analysis failed. Please try again.",
+    "nameRequired": "Profile name is required.",
+    "urlRequired": "Please provide at least one article URL.",
+    "invalidUrl": "Please provide valid article URLs.",
+    "noChanges": "No changes detected."
+  },
+  "addForm": {
+    "profileName": "Profile Name",
+    "required": "*",
+    "namePlaceholder": "Enter a unique name for the profile",
+    "description": "Description (Optional)",
+    "descriptionPlaceholder": "Describe the writing style or author persona",
+    "saveButton": "Save Profile",
+    "savingButton": "Saving...",
+    "validation": {
+      "nameRequired": "Name is required."
+    },
+    "toast": {
+      "createSuccess": "Style profile created successfully!",
+      "createFailed": "An unexpected error occurred."
+    }
+  }
+} 

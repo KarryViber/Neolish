@@ -1,0 +1,40 @@
+{
+  "title": "Dashboard",
+  "welcome": "Welcome back",
+  "overview": "Overview",
+  "description": "Overview of your activities and quick access to core features.",
+  "underDevelopment": "(Dashboard content is currently under development)",
+  "stats": {
+    "totalArticles": "Total Articles",
+    "publishedArticles": "Published Articles", 
+    "draftArticles": "Draft Articles",
+    "totalViews": "Total Views",
+    "thisMonth": "This Month",
+    "lastMonth": "Last Month",
+    "change": "Change"
+  },
+  "recentActivity": {
+    "title": "Recent Activity",
+    "noActivity": "No recent activity",
+    "viewAll": "View All"
+  },
+  "quickActions": {
+    "title": "Quick Actions",
+    "createArticle": "Create New Article",
+    "createOutline": "Generate Outline",
+    "createStyleProfile": "Create Style Profile",
+    "viewAnalytics": "View Analytics"
+  },
+  "recentArticles": {
+    "title": "Recent Articles",
+    "noArticles": "No articles yet",
+    "createFirst": "Create your first article",
+    "viewAll": "View All Articles"
+  },
+  "performance": {
+    "title": "Performance",
+    "publishingRate": "Publishing Rate",
+    "engagementRate": "Engagement Rate",
+    "averageLength": "Average Length"
+  }
+} 

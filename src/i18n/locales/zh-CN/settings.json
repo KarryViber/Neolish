@@ -1,0 +1,200 @@
+{
+  "title": "设置",
+  "subtitle": "配置您的账户、团队设置和应用程序偏好。",
+  "loading": "加载用户会话中...",
+  "tabs": {
+    "profile": "个人设置",
+    "team": "团队设置"
+  },
+  "profile": {
+    "title": "个人资料",
+    "subtitle": "管理您的个人信息和账户设置。",
+    "avatar": {
+      "buttons": {
+        "upload": "上传头像",
+        "change": "更换头像",
+        "save": "保存",
+        "cancel": "取消",
+        "remove": "移除头像",
+        "uploading": "上传中...",
+        "removing": "移除中..."
+      },
+      "dialog": {
+        "title": "编辑头像",
+        "description": "上传一张新的头像图片或移除当前头像。",
+        "fileRequirements": "支持 JPG、PNG 等图片格式，文件大小不超过 5MB"
+      },
+      "messages": {
+        "uploadSuccess": "头像上传成功",
+        "removeSuccess": "头像移除成功"
+      },
+      "errors": {
+        "invalidFileType": "请选择有效的图片文件",
+        "fileTooLarge": "文件大小不能超过 5MB",
+        "uploadFailed": "头像上传失败",
+        "removeFailed": "头像移除失败"
+      },
+      "currentAvatar": "当前头像"
+    },
+    "basicInfo": {
+      "title": "基本信息",
+      "username": "用户名",
+      "usernamePlaceholder": "输入您的用户名",
+      "email": "邮箱地址",
+      "emailPlaceholder": "输入您的邮箱地址",
+      "editEmail": "编辑邮箱",
+      "cancelEditEmail": "取消编辑",
+      "memberSince": "注册时间：{date}",
+      "updateButton": "更新资料",
+      "updating": "更新中..."
+    },
+    "security": {
+      "title": "安全设置",
+      "changePassword": "修改密码",
+      "currentPassword": "当前密码",
+      "currentPasswordPlaceholder": "输入当前密码",
+      "newPassword": "新密码",
+      "newPasswordPlaceholder": "输入新密码（至少6位）",
+      "confirmPassword": "确认新密码",
+      "confirmPasswordPlaceholder": "再次输入新密码",
+      "updatePasswordButton": "更新密码",
+      "updatingPassword": "更新密码中..."
+    },
+    "messages": {
+      "profileUpdateSuccess": "个人资料更新成功",
+      "profileUpdateError": "更新个人资料失败",
+      "passwordUpdateSuccess": "密码更新成功",
+      "passwordUpdateError": "更新密码失败",
+      "passwordMismatch": "两次输入的密码不一致",
+      "loading": "加载用户资料中...",
+      "loadError": "加载用户资料失败"
+    }
+  },
+  "teams": {
+    "title": "我的团队",
+    "subtitle": "管理您的团队并邀请成员。",
+    "noTeams": "您还没有加入任何团队",
+    "noTeamsDescription": "联系团队管理员获取邀请码，或等待团队创建功能开放",
+    "teamCount": "{count} 个团队",
+    "memberCount": "{count} 位成员",
+    "yourRole": "您的角色：",
+    "manage": "管理",
+    "createdAt": "创建于",
+    "common": {
+      "invalidDate": "无效日期",
+      "failedToFetchMembers": "获取成员失败",
+      "failedToFetchInvitations": "获取邀请码失败"
+    },
+    "members": {
+      "title": "成员",
+      "noMembers": "此团队没有找到成员。",
+      "manage": "管理",
+      "roles": {
+        "OWNER": "所有者",
+        "ADMIN": "管理员",
+        "MEMBER": "成员"
+      }
+    },
+    "stats": {
+      "articles": "文章",
+      "images": "图片",
+      "styleProfiles": "风格",
+      "audiences": "受众"
+    },
+    "inviteInfo": {
+      "codeLabel": "邀请码",
+      "emailLabel": "邀请邮箱",
+      "linkLabel": "注册链接",
+      "instructionText": "请在注册时输入邀请码"
+    },
+    "management": {
+      "title": "团队管理",
+      "subtitle": "邀请新成员加入团队"
+    },
+    "createNew": {
+      "title": "创建新团队",
+      "subtitle": "为您的新团队起个名字。",
+      "teamName": "团队名称",
+      "teamNamePlaceholder": "我的超棒团队",
+      "description": "这将是您团队的名称。",
+      "createButton": "创建团队",
+      "creatingButton": "创建中..."
+    },
+    "generateCode": {
+      "title": "邀请新成员",
+      "emailPlaceholder": "输入邮箱以生成代码",
+      "generateButton": "生成代码",
+      "generatingButton": "生成中...",
+      "successMessage": "代码：{code}（已复制！）",
+      "failedToGenerate": "生成代码失败",
+      "apiNoCode": "API 未返回代码。"
+    },
+    "invitations": {
+      "title": "待使用的邀请码",
+      "noInvitations": "当前没有未使用的邀请码",
+      "loading": "加载邀请码中...",
+      "error": "加载邀请码时出错",
+      "actions": {
+        "copy": "复制",
+        "revoke": "撤销",
+        "revoking": "撤销中...",
+        "confirmRevoke": "确定要撤销这个邀请码吗？撤销后将无法恢复。"
+      },
+      "createdAt": "创建于：{date}",
+      "copySuccess": "邀请信息已复制到剪贴板",
+      "revokeSuccess": "邀请码已成功撤销",
+      "revokeError": "撤销邀请码失败"
+    },
+    "manageTeam": {
+      "title": "管理团队",
+      "backToSettings": "返回设置",
+      "accessDenied": {
+        "title": "访问受限",
+        "description": "只有团队所有者和管理员才能访问团队管理页面。",
+        "backButton": "返回设置"
+      },
+      "members": {
+        "title": "成员",
+        "subtitle": "查看和管理团队成员。",
+        "noMembers": "此团队没有找到成员。",
+        "manage": "管理",
+        "tableHeaders": {
+          "username": "用户名",
+          "email": "邮箱",
+          "role": "角色",
+          "joinedTeam": "加入团队时间",
+          "actions": "操作"
+        },
+        "roles": {
+          "OWNER": "所有者",
+          "ADMIN": "管理员",
+          "MEMBER": "成员"
+        },
+        "actions": {
+          "changeRole": "更改角色",
+          "removeMember": "移除成员",
+          "confirmRemove": "确定要移除成员 {username} 吗？此操作无法撤销。",
+          "roleUpdateSuccess": "成员角色更新成功",
+          "roleUpdateError": "更新成员角色失败",
+          "memberRemoveSuccess": "成员移除成功",
+          "memberRemoveError": "移除成员失败",
+          "updating": "更新中...",
+          "removing": "移除中...",
+          "cancel": "取消"
+        }
+      },
+      "loading": "加载团队数据中...",
+      "error": {
+        "title": "哎呀！出了点问题。",
+        "tryAgain": "重试"
+      }
+    }
+  },
+  "errors": {
+    "fetchTeams": "错误：{error}",
+    "createTeam": "{error}",
+    "fetchTeamsFailed": "获取团队失败",
+    "createTeamFailed": "创建团队失败",
+    "unexpectedError": "发生了意外错误"
+  }
+} 

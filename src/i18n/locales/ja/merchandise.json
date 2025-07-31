@@ -1,0 +1,146 @@
+{
+  "title": "商材管理",
+  "subtitle": "コンテンツ制作のための商材情報とアセットを管理します。",
+  "loading": "商材を読み込み中...",
+  "error": {
+    "title": "商材の読み込みに失敗しました",
+    "tryAgain": "再試行",
+    "noTeam": "チームに所属していることをご確認ください。"
+  },
+  "search": {
+    "placeholder": "名前、概要、またはタグで検索..."
+  },
+  "emptyState": {
+    "withSearch": "検索条件に一致する商材が見つかりません。",
+    "withoutSearch": "商材がまだありません。",
+    "searchHint": "検索条件を調整してみてください。",
+    "addHint": "新しい商材を追加して始めましょう。"
+  },
+  "buttons": {
+    "newMerchandise": "新規商材",
+    "edit": "編集",
+    "delete": "削除",
+    "back": "戻る",
+    "cancel": "キャンセル",
+    "analyzeFile": "ファイル分析",
+    "analyzeUrl": "URL分析",
+    "close": "閉じる",
+    "saveChanges": "変更を保存",
+    "createMerchandise": "商材を作成"
+  },
+  "card": {
+    "createdBy": "作成者：",
+    "created": "作成日：",
+    "noSummary": "概要がありません。",
+    "moreItems": "他{count}件"
+  },
+  "sourceType": {
+    "url": "URL",
+    "file": "ファイル", 
+    "manual": "手動"
+  },
+  "tagInput": {
+    "placeholder": "タグを追加してEnterまたはカンマを押してください...",
+    "removeLabel": "{tag}を削除",
+    "hint": "Enterまたはカンマでタグを追加します。入力が空の場合、Backspaceで最後のタグを削除できます。"
+  },
+  "modal": {
+    "add": {
+      "selectMethod": {
+        "title": "新規商材 - 方法選択",
+        "description": "新しい商材をどのように追加しますか？",
+        "enterManually": "手動入力",
+        "analyzeFromFile": "ファイルから分析",
+        "analyzeFromUrl": "URLから分析"
+      },
+      "fileInput": {
+        "title": "新規商材 - ファイル分析",
+        "description": "分析するファイルを選択してください。コンテンツはフォームの事前入力に使用されます。",
+        "uploadFile": "ファイルアップロード",
+        "uploadButton": "ローカルからPDFをアップロード",
+        "uploadHint": "分析用のPDFファイルをアップロードしてください。",
+        "selected": "選択済み：{filename}"
+      },
+      "urlInput": {
+        "title": "新規商材 - URL分析",
+        "description": "分析するURLを入力してください。コンテンツはフォームの事前入力に使用されます。",
+        "enterUrl": "URL入力",
+        "placeholder": "https://example.com/article"
+      },
+      "analyzing": {
+        "title": "コンテンツ分析中...",
+        "description": "アイテム作成のためにコンテンツを分析中です。しばらくお待ちください。",
+        "message": "コンテンツを分析中です。しばらくお待ちください..."
+      },
+      "form": {
+        "title": "新規商材 - 確認と保存",
+        "description": "詳細情報を提供して新しい商材を手動で定義します。"
+      }
+    },
+    "edit": {
+      "title": "商材編集：{name}",
+      "description": "商材の詳細を更新します。"
+    },
+    "preview": {
+      "title": "{name}",
+      "description": "この商材の詳細を表示します。"
+    }
+  },
+  "form": {
+    "name": {
+      "label": "名前",
+      "placeholder": "例：エコフレンドリーウォーターボトル"
+    },
+    "summary": {
+      "label": "概要",
+      "placeholder": "商材の簡潔な説明",
+      "noSummary": "概要がありません。"
+    },
+    "source": {
+      "label": "ソースタイプと場所",
+      "labels": {
+        "url": "ソースURL",
+        "file": "ソースファイル参照",
+        "manual": "ソース（手動入力）"
+      },
+      "placeholders": {
+        "url": "https://example.com",
+        "file": "例：my_document.pdf",
+        "manual": "ソースの簡潔な説明"
+      }
+    },
+    "tags": {
+      "label": "タグ",
+      "placeholder": "'エコ'、'テック'、'限定版'などのタグを追加...",
+      "noTags": "タグが割り当てられていません。"
+    },
+    "metadata": {
+      "label": "メタデータ",
+      "createdBy": "作成者",
+      "created": "作成日",
+      "updated": "更新日"
+    },
+    "validation": {
+      "nameRequired": "商材名は必須です。"
+    }
+  },
+  "deleteConfirm": {
+    "title": "商材「{name}」を削除してもよろしいですか？",
+    "message": "この操作は元に戻すことができません。"
+  },
+  "toast": {
+    "createSuccess": "商材が正常に作成されました！",
+    "updateSuccess": "商材が正常に更新されました！",
+    "deleteSuccess": "商材が正常に削除されました！",
+    "createError": "商材の作成に失敗しました。",
+    "updateError": "商材の更新に失敗しました。", 
+    "deleteError": "商材の削除に失敗しました。",
+    "loadError": "商材の読み込みに失敗しました。",
+    "analysisError": "分析プロセスが失敗しました",
+    "analysisSuccess": "分析が正常に完了しました！",
+    "noFileSelected": "まずファイルを選択してください。",
+    "invalidUrl": "有効なURLを入力してください。",
+    "sessionError": "セッションエラーです。再度ログインしてください。",
+    "teamError": "チーム情報がありません。"
+  }
+} 

@@ -1,0 +1,15 @@
+{
+  "status": "生成キューステータス",
+  "queued": "待機中",
+  "processing": "処理中",
+  "averageTime": "平均処理時間：",
+  "currentlyProcessing": "現在処理中：",
+  "queueTitle": "キュー：",
+  "moreInQueue": "キューに{count}件が残っています",
+  "pending": "保留中",
+  "processingDots": "処理中...",
+  "updated": "{time}に更新",
+  "allComplete": "すべて完了",
+  "loading": "読み込み中...",
+  "error": "エラー"
+} 

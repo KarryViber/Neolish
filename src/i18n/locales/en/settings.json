@@ -1,0 +1,195 @@
+{
+  "title": "Settings",
+  "subtitle": "Configure your account, team settings, and application preferences.",
+  "loading": "Loading user session...",
+  "tabs": {
+    "profile": "Profile",
+    "team": "Team"
+  },
+  "profile": {
+    "title": "Profile",
+    "subtitle": "Manage your personal information and account settings.",
+    "avatar": {
+      "buttons": {
+        "upload": "Upload Avatar",
+        "change": "Change Avatar",
+        "save": "Save",
+        "cancel": "Cancel",
+        "remove": "Remove Avatar",
+        "uploading": "Uploading...",
+        "removing": "Removing..."
+      },
+      "dialog": {
+        "title": "Edit Avatar",
+        "description": "Upload a new avatar image or remove the current one.",
+        "fileRequirements": "Supports JPG, PNG and other image formats, file size should not exceed 5MB"
+      },
+      "messages": {
+        "uploadSuccess": "Avatar uploaded successfully",
+        "removeSuccess": "Avatar removed successfully"
+      },
+      "errors": {
+        "invalidFileType": "Please select a valid image file",
+        "fileTooLarge": "File size should not exceed 5MB",
+        "uploadFailed": "Failed to upload avatar",
+        "removeFailed": "Failed to remove avatar"
+      },
+      "currentAvatar": "Current avatar"
+    },
+    "basicInfo": {
+      "title": "Basic Information",
+      "username": "Username",
+      "usernamePlaceholder": "Enter your username",
+      "email": "Email Address",
+      "emailPlaceholder": "Enter your email address",
+      "editEmail": "Edit Email",
+      "cancelEditEmail": "Cancel Edit",
+      "memberSince": "Member since: {date}",
+      "updateButton": "Update Profile",
+      "updating": "Updating..."
+    },
+    "security": {
+      "title": "Security Settings",
+      "changePassword": "Change Password",
+      "currentPassword": "Current Password",
+      "currentPasswordPlaceholder": "Enter current password",
+      "newPassword": "New Password",
+      "newPasswordPlaceholder": "Enter new password (at least 6 characters)",
+      "confirmPassword": "Confirm New Password",
+      "confirmPasswordPlaceholder": "Re-enter new password",
+      "updatePasswordButton": "Update Password",
+      "updatingPassword": "Updating Password..."
+    },
+    "messages": {
+      "profileUpdateSuccess": "Profile updated successfully",
+      "profileUpdateError": "Failed to update profile",
+      "passwordUpdateSuccess": "Password updated successfully",
+      "passwordUpdateError": "Failed to update password",
+      "passwordMismatch": "Passwords do not match",
+      "loading": "Loading user profile...",
+      "loadError": "Failed to load user profile"
+    }
+  },
+  "teams": {
+    "title": "My Teams",
+    "subtitle": "Manage your teams and invite members.",
+    "noTeams": "You are not part of any teams yet.",
+    "noTeamsDescription": "Contact your team administrator for an invitation code, or wait for team creation feature to be available.",
+    "memberCount": "{count} members",
+    "yourRole": "Your role:",
+    "manage": "Manage",
+    "createdAt": "Created on",
+    "common": {
+      "invalidDate": "Invalid Date",
+      "failedToFetchMembers": "Failed to fetch members",
+      "failedToFetchInvitations": "Failed to fetch invitations"
+    },
+    "members": {
+      "title": "Members",
+      "noMembers": "No members found for this team.",
+      "manage": "Manage",
+      "roles": {
+        "OWNER": "Owner",
+        "ADMIN": "Admin",
+        "MEMBER": "Member"
+      }
+    },
+    "stats": {
+      "articles": "Articles",
+      "images": "Images",
+      "styleProfiles": "Styles",
+      "audiences": "Audiences"
+    },
+    "inviteInfo": {
+      "codeLabel": "Invitation Code",
+      "emailLabel": "Invitation Email",
+      "linkLabel": "Registration Link",
+      "instructionText": "Please enter the invitation code during registration"
+    },
+    "createNew": {
+      "title": "Create a New Team",
+      "subtitle": "Give your new team a name.",
+      "teamName": "Team Name",
+      "teamNamePlaceholder": "My Awesome Team",
+      "description": "This will be the name of your team.",
+      "createButton": "Create Team",
+      "creatingButton": "Creating..."
+    },
+    "generateCode": {
+      "title": "Invite New Member",
+      "emailPlaceholder": "Enter email to generate code",
+      "generateButton": "Generate Code",
+      "generatingButton": "Generating...",
+      "successMessage": "Code: {code} (Copied!)",
+      "failedToGenerate": "Failed to generate code",
+      "apiNoCode": "API did not return a code."
+    },
+    "invitations": {
+      "title": "Pending Invitation Codes",
+      "noInvitations": "No pending invitation codes",
+      "loading": "Loading invitation codes...",
+      "error": "Error loading invitation codes",
+      "actions": {
+        "copy": "Copy",
+        "revoke": "Revoke",
+        "revoking": "Revoking...",
+        "confirmRevoke": "Are you sure you want to revoke this invitation code? This action cannot be undone."
+      },
+      "createdAt": "Created: {date}",
+      "copySuccess": "Invitation information copied to clipboard",
+      "revokeSuccess": "Invitation code revoked successfully",
+      "revokeError": "Failed to revoke invitation code"
+    },
+    "manageTeam": {
+      "title": "Manage Team",
+      "backToSettings": "Back to Settings",
+      "accessDenied": {
+        "title": "Access Denied",
+        "description": "Only team owners and administrators can access the team management page.",
+        "backButton": "Back to Settings"
+      },
+      "members": {
+        "title": "Members",
+        "subtitle": "View and manage team members.",
+        "noMembers": "No members found for this team.",
+        "manage": "Manage",
+        "tableHeaders": {
+          "username": "Username",
+          "email": "Email",
+          "role": "Role",
+          "joinedTeam": "Joined Team",
+          "actions": "Actions"
+        },
+        "roles": {
+          "OWNER": "Owner",
+          "ADMIN": "Admin",
+          "MEMBER": "Member"
+        },
+        "actions": {
+          "changeRole": "Change Role",
+          "removeMember": "Remove Member",
+          "confirmRemove": "Are you sure you want to remove member {username}? This action cannot be undone.",
+          "roleUpdateSuccess": "Member role updated successfully",
+          "roleUpdateError": "Failed to update member role",
+          "memberRemoveSuccess": "Member removed successfully",
+          "memberRemoveError": "Failed to remove member",
+          "updating": "Updating...",
+          "removing": "Removing...",
+          "cancel": "Cancel"
+        }
+      },
+      "loading": "Loading Team Data...",
+      "error": {
+        "title": "Oops! Something went wrong.",
+        "tryAgain": "Try Again"
+      }
+    }
+  },
+  "errors": {
+    "fetchTeams": "Error: {error}",
+    "createTeam": "{error}",
+    "fetchTeamsFailed": "Failed to fetch teams",
+    "createTeamFailed": "Failed to create team",
+    "unexpectedError": "An unexpected error occurred"
+  }
+} 

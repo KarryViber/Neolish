@@ -1,0 +1,40 @@
+{
+  "title": "仪表板",
+  "welcome": "欢迎回来",
+  "overview": "概览",
+  "description": "您的活动概览和核心功能的快速访问。",
+  "underDevelopment": "（仪表板内容正在开发中）",
+  "stats": {
+    "totalArticles": "文章总数",
+    "publishedArticles": "已发布文章", 
+    "draftArticles": "草稿文章",
+    "totalViews": "总浏览量",
+    "thisMonth": "本月",
+    "lastMonth": "上月",
+    "change": "变化"
+  },
+  "recentActivity": {
+    "title": "最近活动",
+    "noActivity": "暂无最近活动",
+    "viewAll": "查看全部"
+  },
+  "quickActions": {
+    "title": "快速操作",
+    "createArticle": "创建新文章",
+    "createOutline": "生成大纲",
+    "createStyleProfile": "创建风格配置",
+    "viewAnalytics": "查看分析"
+  },
+  "recentArticles": {
+    "title": "最近文章",
+    "noArticles": "暂无文章",
+    "createFirst": "创建您的第一篇文章",
+    "viewAll": "查看所有文章"
+  },
+  "performance": {
+    "title": "性能表现",
+    "publishingRate": "发布频率",
+    "engagementRate": "参与度",
+    "averageLength": "平均长度"
+  }
+} 

@@ -1,0 +1,245 @@
+{
+  "title": "記事を公開",
+  "subtitle": "記事を選択して公開設定を構成してください。",
+  "loading": {
+    "articles": "公開記事を読み込み中...",
+    "publishing": "公開中..."
+  },
+  "error": {
+    "fetchArticles": "記事の取得に失敗しました：{error}",
+    "refetchFailed": "記事の再取得に失敗しました",
+    "reloadFailed": "記事の再読み込みに失敗しました"
+  },
+  "filters": {
+    "status": {
+      "label": "ステータスでフィルター",
+      "all": "すべてのステータス",
+      "pendingPublish": "公開待ち",
+      "published": "公開済み"
+    },
+    "search": {
+      "placeholder": "記事タイトルを検索..."
+    }
+  },
+  "table": {
+    "headers": {
+      "title": "タイトル",
+      "status": "ステータス", 
+      "details": "詳細",
+      "actions": "アクション"
+    },
+    "actions": {
+      "viewSettings": "設定を表示",
+      "configurePublish": "設定して公開"
+    },
+    "batch": {
+      "publish": "一括公開 ({count})",
+      "delete": "一括削除"
+    },
+    "empty": {
+      "noArticles": "公開可能な記事がありません。",
+      "noResults": "現在のフィルターに一致する記事がありません。"
+    }
+  },
+  "status": {
+    "pending": "公開待ち",
+    "published": "公開済み",
+    "draft": "下書き"
+  },
+  "steps": {
+    "selectPlatforms": "1. プラットフォーム選択",
+    "configureCoverImage": "2. カバー設定", 
+    "adaptContentX": "3. X用に適応",
+    "adaptContentWordPress": "4. WordPress用に適応",
+    "previewAndPublish": "5. プレビューと公開",
+    "publishing": "公開",
+    "article": "記事",
+    "loading": "読み込み中...",
+    "buttons": {
+      "cancel": "キャンセル",
+      "previous": "前へ",
+      "nextStep": "次のステップ"
+    }
+  },
+  "stepper": {
+    "stepCounter": "ステップ {current}/{total}",
+    "progressComplete": "{percent}% 完了"
+  },
+  "platforms": {
+    "x": {
+      "name": "X",
+      "description": "記事をスレッドに変換"
+    },
+    "wordpress": {
+      "name": "WordPress", 
+      "description": "WordPressブログに公開"
+    },
+    "note": {
+      "name": "内部メモ",
+      "description": "内部メモとして保存（必須）",
+      "required": "必須",
+      "noteText": "内部メモは必須で、コンテンツを保存するために常に公開されます。より広く配信するために追加のプラットフォームを選択できます。"
+    }
+  },
+  "coverImage": {
+    "selectGenerationStyle": "生成スタイルを選択",
+    "referenceImage": "参考画像",
+    "referenceImageNote": "参考画像が提供された場合、それが優先され、選択されたプリセットスタイルはクリアされます。",
+    "localUpload": "ローカルアップロード",
+    "imageUrl": "画像URL",
+    "limitReached": "（上限に達しました）",
+    "imageUrlPlaceholder": "画像URLを貼り付け https://...",
+    "addButton": "追加",
+    "prompt": "プロンプト",
+    "aiAssist": "AI アシスト",
+    "aiAssistGenerating": "生成中...",
+    "generatePrompt": "プロンプトを生成",
+    "promptPlaceholder": "詳細なプロンプトを入力してください。例：宇宙飛行士のヘルメットをかぶった可愛い猫が宇宙に浮かんでいる、星空の銀河背景、デジタルアートスタイル。",
+    "generateImage": "画像を生成",
+    "generating": "生成中...",
+    "quickAdjustments": "クイック調整",
+    "copyPrompt": "プロンプトをコピー",
+    "clearPrompt": "プロンプトをクリア",
+    "adjustments": {
+      "brighter": "明るく",
+      "professional": "プロフェッショナル",
+      "creative": "クリエイティブ",
+      "addTextSpace": "テキストスペースを追加"
+    },
+    "finalCoverImage": "最終カバー画像",
+    "uploadFinalCover": "最終カバーをアップロード/置換",
+    "removeCover": "カバーを削除",
+    "invalidFileData": "無効なファイルデータ",
+    "previewError": "プレビューエラー",
+    "removeImage": "画像を削除",
+    "removeImageUrl": "画像URLを削除",
+    "selectedLocalFile": "選択されたローカルファイル：{filename}",
+    "showingAiGenerated": "現在AI生成のカバーを表示中。",
+    "previewAfterGeneration": "生成またはアップロード後にここにプレビューが表示されます。",
+    "maxReferenceImages": "参考画像は最大1枚まで追加できます。",
+    "invalidImageUrl": "有効な画像URL（http/https）を入力してください！"
+  },
+  "xPreview": {
+    "postThread": "ポストスレッド",
+    "previewText": "Xでのスレッドの表示プレビュー",
+    "userName": "お名前",
+    "userHandle": "@ユーザー名",
+    "timeAgo": "たった今",
+    "threadIndicator": "スレッド {current}/{total}"
+  },
+  "verticalStepper": {
+    "publishing": "公開中",
+    "backToArticles": "記事に戻る"
+  },
+  "xContentAdaptation": {
+    "title": "Xコンテンツ適応",
+    "generateButton": "ポストスレッドを生成",
+    "generating": "AI生成中...",
+    "description": "記事を魅力的なXポストスレッドに変換します。AIが自動的にコンテンツをポストサイズに分解します。",
+    "editPanel": {
+      "title": "ポストスレッドを編集",
+      "description": "ポストコンテンツを編集してスレッドポストを管理",
+      "addThreadPost": "スレッドポストを追加",
+      "mainPost": "メインポスト",
+      "post": "ポスト {number}",
+      "charactersCount": "{count}/280 文字",
+      "mainPostPlaceholder": "メインポストの内容を入力...",
+      "threadPostPlaceholder": "スレッドポスト {number} の内容を入力...",
+      "characterLimitError": "ポストが280文字制限を超過",
+      "removeThreadPost": "このスレッドポストを削除"
+    },
+    "previewPanel": {
+      "title": "ライブプレビュー",
+      "description": "Xプラットフォームでのスレッドの表示を確認",
+      "desktop": "デスクトップ",
+      "mobile": "モバイル"
+    },
+    "emptyState": {
+      "title": "ポストスレッドが生成されていません",
+      "description": "「ポストスレッドを生成」をクリックして、AIを使用して記事を魅力的なポストシリーズに自動変換してください。"
+    }
+  },
+  "previewAndPublish": {
+    "publishSummary": "公開サマリー",
+    "articleTitle": "記事タイトル",
+    "publishPlatforms": "公開プラットフォーム",
+    "contentSummary": "コンテンツサマリー",
+    "scheduledPublishTime": "予定公開時刻",
+    "leaveEmptyToPublishImmediately": "空欄のままで即座に公開",
+    "coverPreview": "カバープレビュー",
+    "noCoverImageSet": "カバー画像が設定されていません",
+    "defaultCoverWillBeUsed": "デフォルトカバーが使用されます",
+    "publishedSuccessfully": "公開成功！",
+    "publishedSuccessfullyDescription": "記事がすべての選択されたプラットフォームに公開されました。公開ダッシュボードにリダイレクトしています...",
+    "publishFailed": "公開失敗",
+    "failedToPublishArticle": "記事の公開に失敗しました",
+    "readyToPublish": "公開準備完了",
+    "publishingInProgress": "公開中...",
+    "publishingDescription": "選択されたすべてのプラットフォームに記事を公開しています。しばらくお待ちください...",
+    "publishedDescription": "記事がすべての選択されたプラットフォームで公開されました",
+    "publishFailedDescription": "上記のエラーを確認して再試行してください",
+    "confirmDescription": "情報が正確であることを確認し、公開をクリックしてプロセスを完了してください",
+    "publishButton": "記事を公開",
+    "publishingButton": "公開中...",
+    "publishedButton": "公開済み ✓",
+    "contentSummaryItems": {
+      "xThread": "Xスレッド：{count} ポスト準備完了",
+      "coverImage": "カバー画像：準備完了",
+      "internalNote": "内部メモ：自動保存されます"
+    },
+    "platformNames": {
+      "x": "X (Twitter)",
+      "wordpress": "WordPress",
+      "note": "内部メモ"
+    }
+  },
+  "legacy": {
+    "steps": {
+      "selectPlatforms": {
+        "title": "プラットフォームを選択",
+        "description": "この記事を公開するプラットフォームを選択してください。",
+        "selected": "選択済み：{platforms}",
+        "none": "なし"
+      },
+      "configureCoverImage": {
+        "title": "カバー画像を設定",
+        "description": "カバー画像をアップロードまたは生成します。",
+        "stylePlaceholder": "カバー画像のスタイル（例：フォトリアリスティック）",
+        "promptPlaceholder": "カバー画像のプロンプト",
+        "currentImageUrl": "現在の画像URL：{url}",
+        "noImage": "なし"
+      },
+      "adaptContentX": {
+        "title": "Xプラットフォーム用にコンテンツを調整",
+        "description": "生成された投稿を確認・編集します。",
+        "postsPlaceholder": "生成された投稿がここに表示されます..."
+      },
+      "adaptContentWordPress": {
+        "title": "WordPress用に設定",
+        "description": "カテゴリとタグを設定します。",
+        "categoriesPlaceholder": "カテゴリ（カンマ区切り）",
+        "tagsPlaceholder": "タグ（カンマ区切り）"
+      },
+      "previewAndPublish": {
+        "title": "プレビューと公開",
+        "description": "公開前にすべての設定を確認します。"
+      }
+    },
+    "stepNames": {
+      "platforms": "プラットフォーム",
+      "coverImage": "カバー画像",
+      "x": "X",
+      "wordpress": "WordPress", 
+      "publish": "公開"
+    },
+    "buttons": {
+      "cancel": "キャンセル",
+      "previous": "前へ",
+      "next": "次へ",
+      "publishArticle": "記事を公開"
+    },
+    "messages": {
+      "loadingStep": "ステップを読み込み中..."
+    }
+  }
+} 

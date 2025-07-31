@@ -1,0 +1,271 @@
+{
+  "title": "发布文章",
+  "subtitle": "选择文章来配置其发布设置。",
+  "loading": {
+    "articles": "正在加载发布文章...",
+    "publishing": "发布中..."
+  },
+  "error": {
+    "fetchArticles": "获取文章失败：{error}",
+    "refetchFailed": "重新获取文章失败",
+    "reloadFailed": "重新加载文章失败"
+  },
+  "filters": {
+    "status": {
+      "label": "筛选状态",
+      "all": "所有状态",
+      "pendingPublish": "待发布",
+      "published": "已发布"
+    },
+    "search": {
+      "placeholder": "搜索文章标题..."
+    }
+  },
+  "table": {
+    "headers": {
+      "title": "标题",
+      "status": "状态", 
+      "details": "详情",
+      "actions": "操作"
+    },
+    "actions": {
+      "viewSettings": "查看设置",
+      "configurePublish": "配置并发布"
+    },
+    "batch": {
+      "publish": "批量发布 ({count})",
+      "delete": "批量删除"
+    },
+    "empty": {
+      "noArticles": "没有可发布的文章。",
+      "noResults": "没有文章符合当前筛选条件。"
+    }
+  },
+  "status": {
+    "pending": "待发布",
+    "published": "已发布",
+    "draft": "草稿"
+  },
+  "steps": {
+    "selectPlatforms": "1. 选择平台",
+    "configureCoverImage": "2. 配置封面", 
+    "adaptContentX": "3. 适配X平台",
+    "adaptContentWordPress": "4. 适配WordPress",
+    "previewAndPublish": "5. 预览并发布",
+    "publishing": "发布",
+    "article": "文章",
+    "loading": "加载中...",
+    "configurationError": "配置错误",
+    "unknownStep": "未知步骤",
+    "buttons": {
+      "cancel": "取消",
+      "previous": "上一步",
+      "nextStep": "下一步"
+    }
+  },
+  "stepper": {
+    "stepCounter": "第 {current} 步，共 {total} 步",
+    "progressComplete": "{percent}% 完成"
+  },
+  "platforms": {
+    "x": {
+      "name": "X",
+      "description": "将文章转换为帖子串"
+    },
+    "wordpress": {
+      "name": "WordPress", 
+      "description": "发布到WordPress博客"
+    },
+    "note": {
+      "name": "内部笔记",
+      "description": "保存为内部笔记（必需）",
+      "required": "必需",
+      "noteText": "内部笔记是必需的，将始终发布以保存您的内容。您可以选择其他平台进行更广泛的分发。"
+    }
+  },
+  "coverImage": {
+    "selectGenerationStyle": "选择生成风格",
+    "referenceImage": "参考图片",
+    "referenceImageNote": "如果提供了参考图片，它将被优先使用，任何选定的预设风格将被清除。",
+    "localUpload": "本地上传",
+    "imageUrl": "图片URL",
+    "limitReached": "（已达上限）",
+    "imageUrlPlaceholder": "粘贴图片URL https://...",
+    "addButton": "添加",
+    "prompt": "提示词",
+    "aiAssist": "AI辅助",
+    "aiAssistGenerating": "生成中...",
+    "generatePrompt": "生成提示词",
+    "promptPlaceholder": "输入详细的提示词，例如：一只可爱的猫咪戴着宇航员头盔，漂浮在太空中，背景是星空银河，数字艺术风格。",
+    "generateImage": "生成图片",
+    "generating": "生成中...",
+    "quickAdjustments": "快速调整",
+    "copyPrompt": "复制提示词",
+    "clearPrompt": "清除提示词",
+    "adjustments": {
+      "brighter": "更明亮",
+      "professional": "专业风格", 
+      "creative": "创意风格",
+      "addTextSpace": "添加文字空间"
+    },
+    "finalCoverImage": "最终封面图片",
+    "uploadFinalCover": "上传/替换最终封面",
+    "removeCover": "移除封面",
+    "invalidFileData": "无效的文件数据",
+    "previewError": "预览错误",
+    "removeImage": "移除图片",
+    "removeImageUrl": "移除图片URL",
+    "selectedLocalFile": "已选择本地文件：{filename}",
+    "showingAiGenerated": "当前显示AI生成的封面。",
+    "previewAfterGeneration": "生成或上传后将在此处显示预览。",
+    "maxReferenceImages": "最多只能添加1张参考图片。",
+    "invalidImageUrl": "请输入有效的图片URL（http/https）！"
+  },
+  "xPreview": {
+    "postThread": "帖子串",
+    "previewText": "预览您的帖子串在X上的显示效果",
+    "userName": "您的姓名",
+    "userHandle": "@您的用户名",
+    "timeAgo": "刚刚",
+    "threadIndicator": "串贴 {current}/{total}"
+  },
+  "xContentAdaptation": {
+    "title": "X内容适配",
+    "generateButton": "生成帖子串",
+    "generating": "AI生成中...",
+    "description": "将您的文章转换为引人入胜的X帖子串。AI将自动将您的内容分解成帖子大小的片段。",
+    "editPostContent": "编辑您的帖子内容并管理串贴",
+    "maxCharacters": "{max} 字符",
+    "enterMainPost": "输入您的主帖内容...",
+    "enterThreadPost": "输入串贴 {postNumber} 的内容...",
+    "postExceedsLimit": "帖子超过 {max} 字符限制",
+    "removeThreadPost": "删除此串贴",
+    "livePreview": "实时预览",
+    "seeHowThreadAppears": "查看您的帖子串在X平台上的显示效果",
+    "noPostThreadGenerated": "尚未生成帖子串",
+    "clickGenerate": "点击「生成帖子串」，使用AI将您的文章自动转换为一系列引人入胜的帖子。",
+    "editPanel": {
+      "title": "编辑帖子串",
+      "description": "编辑您的帖子内容并管理串贴",
+      "addThreadPost": "添加串贴",
+      "mainPost": "主帖",
+      "post": "帖子 {number}",
+      "charactersCount": "{count}/280 字符",
+      "mainPostPlaceholder": "输入您的主帖内容...",
+      "threadPostPlaceholder": "输入串贴 {number} 的内容...",
+      "characterLimitError": "帖子超过280字符限制",
+      "removeThreadPost": "删除此串贴"
+    },
+    "previewPanel": {
+      "title": "实时预览",
+      "description": "查看您的帖子串在X平台上的显示效果",
+      "desktop": "桌面版",
+      "mobile": "移动版"
+    },
+    "emptyState": {
+      "title": "尚未生成帖子串",
+      "description": "点击「生成帖子串」，使用AI将您的文章自动转换为一系列引人入胜的帖子。"
+    }
+  },
+  "previewAndPublish": {
+    "publishSummary": "发布摘要",
+    "articleTitle": "文章标题",
+    "publishPlatforms": "发布平台",
+    "contentSummary": "内容摘要",
+    "scheduledPublishTime": "计划发布时间",
+    "leaveEmpty": "留空则立即发布",
+    "leaveEmptyToPublishImmediately": "留空则立即发布",
+    "coverPreview": "封面预览",
+    "noCoverImage": "未设置封面图片",
+    "defaultCover": "将使用默认封面",
+    "noCoverImageSet": "未设置封面图片",
+    "defaultCoverWillBeUsed": "将使用默认封面",
+    "publishedSuccessfully": "发布成功！",
+    "articlePublished": "您的文章已发布到所有选定的平台。正在重定向到发布仪表板...",
+    "publishedSuccessfullyDescription": "您的文章已成功发布到所有选定的平台。正在重定向到发布仪表板...",
+    "publishFailed": "发布失败",
+    "failedToPublishArticle": "文章发布失败",
+    "readyToPublish": "准备发布",
+    "publishingInProgress": "发布中...",
+    "pleaseWait": "请稍候，我们正在将您的文章发布到所有选定的平台...",
+    "publishingDescription": "请稍候，我们正在将您的文章发布到所有选定的平台...",
+    "articleLive": "您的文章现已在所有选定的平台上线",
+    "publishedDescription": "您的文章现已在所有选定的平台上线",
+    "checkError": "请检查上述错误并重试",
+    "publishFailedDescription": "请检查上述错误并重试",
+    "confirmInformation": "确认信息正确后，点击发布以完成流程",
+    "confirmDescription": "确认信息正确后，点击发布以完成流程",
+    "publishArticle": "发布文章",
+    "publishing": "发布中...",
+    "published": "已发布 ✓",
+    "publishButton": "发布文章",
+    "publishingButton": "发布中...",
+    "publishedButton": "已发布 ✓",
+    "xThread": "X帖子串：已准备 {count} 个帖子",
+    "coverImageReady": "封面图片：已就绪",
+    "internalNote": "内部笔记：将自动保存",
+    "contentSummaryItems": {
+      "xThread": "X帖子串：已准备 {count} 个帖子",
+      "coverImage": "封面图片：已就绪",
+      "internalNote": "内部笔记：将自动保存"
+    },
+    "platformNames": {
+      "x": "X (Twitter)",
+      "wordpress": "WordPress",
+      "note": "内部笔记"
+    }
+  },
+  "verticalStepper": {
+    "publishing": "发布中",
+    "backToArticles": "返回文章"
+  },
+  "legacy": {
+    "steps": {
+      "selectPlatforms": {
+        "title": "选择平台",
+        "description": "选择您要发布这篇文章的平台。",
+        "selected": "已选择：{platforms}",
+        "none": "无"
+      },
+      "configureCoverImage": {
+        "title": "配置封面图像",
+        "description": "上传或生成封面图像。",
+        "stylePlaceholder": "封面图像风格（例如：写实风格）",
+        "promptPlaceholder": "封面图像提示词",
+        "currentImageUrl": "当前图像URL：{url}",
+        "noImage": "无"
+      },
+      "adaptContentX": {
+        "title": "为X平台调整内容",
+        "description": "查看并编辑生成的帖子。",
+        "postsPlaceholder": "生成的帖子将显示在这里..."
+      },
+      "adaptContentWordPress": {
+        "title": "为WordPress配置",
+        "description": "设置分类和标签。",
+        "categoriesPlaceholder": "分类（逗号分隔）",
+        "tagsPlaceholder": "标签（逗号分隔）"
+      },
+      "previewAndPublish": {
+        "title": "预览与发布",
+        "description": "发布前查看所有设置。"
+      }
+    },
+    "stepNames": {
+      "platforms": "平台",
+      "coverImage": "封面图像",
+      "x": "X",
+      "wordpress": "WordPress", 
+      "publish": "发布"
+    },
+    "buttons": {
+      "cancel": "取消",
+      "previous": "上一步",
+      "next": "下一步",
+      "publishArticle": "发布文章"
+    },
+    "messages": {
+      "loadingStep": "加载步骤中..."
+    }
+  }
+} 

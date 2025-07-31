@@ -1,0 +1,146 @@
+{
+  "title": "商材管理",
+  "subtitle": "管理您的产品信息和资产以用于内容创作。",
+  "loading": "正在加载商材...",
+  "error": {
+    "title": "商材加载失败",
+    "tryAgain": "重试",
+    "noTeam": "请确保您属于某个团队。"
+  },
+  "search": {
+    "placeholder": "按名称、摘要或标签搜索..."
+  },
+  "emptyState": {
+    "withSearch": "未找到符合搜索条件的商材。",
+    "withoutSearch": "暂无商材。",
+    "searchHint": "请调整搜索条件。",
+    "addHint": "开始添加新商材。"
+  },
+  "buttons": {
+    "newMerchandise": "新建商材",
+    "edit": "编辑",
+    "delete": "删除",
+    "back": "返回",
+    "cancel": "取消",
+    "analyzeFile": "分析文件",
+    "analyzeUrl": "分析URL",
+    "close": "关闭",
+    "saveChanges": "保存更改",
+    "createMerchandise": "创建商材"
+  },
+  "card": {
+    "createdBy": "创建者：",
+    "created": "创建时间：",
+    "noSummary": "暂无摘要。",
+    "moreItems": "还有{count}个"
+  },
+  "sourceType": {
+    "url": "网址",
+    "file": "文件", 
+    "manual": "手动"
+  },
+  "tagInput": {
+    "placeholder": "添加标签并按回车或逗号...",
+    "removeLabel": "移除{tag}",
+    "hint": "按回车或逗号添加标签。在输入为空时使用退格键移除最后一个标签。"
+  },
+  "modal": {
+    "add": {
+      "selectMethod": {
+        "title": "新建商材 - 选择方式",
+        "description": "您希望如何添加新商材？",
+        "enterManually": "手动输入",
+        "analyzeFromFile": "从文件分析",
+        "analyzeFromUrl": "从URL分析"
+      },
+      "fileInput": {
+        "title": "新建商材 - 分析文件",
+        "description": "选择要分析的文件。内容将用于预填充表单。",
+        "uploadFile": "上传文件",
+        "uploadButton": "从本地上传PDF",
+        "uploadHint": "请上传PDF文件进行分析。",
+        "selected": "已选择：{filename}"
+      },
+      "urlInput": {
+        "title": "新建商材 - 分析URL",
+        "description": "输入要分析的URL。内容将用于预填充表单。",
+        "enterUrl": "输入URL",
+        "placeholder": "https://example.com/article"
+      },
+      "analyzing": {
+        "title": "正在分析内容...",
+        "description": "请稍候，系统正在分析内容以创建项目。",
+        "message": "正在分析内容，请稍候..."
+      },
+      "form": {
+        "title": "新建商材 - 审查并保存",
+        "description": "通过提供详细信息手动定义新商材。"
+      }
+    },
+    "edit": {
+      "title": "编辑商材：{name}",
+      "description": "更新您的商材详情。"
+    },
+    "preview": {
+      "title": "{name}",
+      "description": "查看此商材的详情。"
+    }
+  },
+  "form": {
+    "name": {
+      "label": "名称",
+      "placeholder": "例如：环保水杯"
+    },
+    "summary": {
+      "label": "摘要",
+      "placeholder": "商材简要描述",
+      "noSummary": "暂无摘要。"
+    },
+    "source": {
+      "label": "来源类型和位置",
+      "labels": {
+        "url": "来源URL",
+        "file": "来源文件引用",
+        "manual": "来源（手动输入）"
+      },
+      "placeholders": {
+        "url": "https://example.com",
+        "file": "例如：my_document.pdf",
+        "manual": "简要描述来源"
+      }
+    },
+    "tags": {
+      "label": "标签",
+      "placeholder": "添加标签如'环保'、'科技'、'限量版'...",
+      "noTags": "暂无标签。"
+    },
+    "metadata": {
+      "label": "元数据",
+      "createdBy": "创建者",
+      "created": "创建时间",
+      "updated": "更新时间"
+    },
+    "validation": {
+      "nameRequired": "商材名称为必填项。"
+    }
+  },
+  "deleteConfirm": {
+    "title": "您确定要删除商材「{name}」吗？",
+    "message": "此操作无法撤销。"
+  },
+  "toast": {
+    "createSuccess": "商材创建成功！",
+    "updateSuccess": "商材更新成功！",
+    "deleteSuccess": "商材删除成功！",
+    "createError": "商材创建失败。",
+    "updateError": "商材更新失败。", 
+    "deleteError": "商材删除失败。",
+    "loadError": "商材加载失败。",
+    "analysisError": "分析过程失败",
+    "analysisSuccess": "分析完成！",
+    "noFileSelected": "请先选择文件。",
+    "invalidUrl": "请输入有效的URL。",
+    "sessionError": "会话错误。请重新登录。",
+    "teamError": "团队信息缺失。"
+  }
+} 

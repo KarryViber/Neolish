@@ -1,0 +1,60 @@
+{
+  "title": "🚀 Neolish System Workflow",
+  "steps": {
+    "styleProfiles": {
+      "title": "Style Profiles",
+      "description": "Create and manage writing style configurations"
+    },
+    "merchandise": {
+      "title": "Merchandise",
+      "description": "Manage product information and descriptions"
+    },
+    "outlines": {
+      "title": "Generate Outlines",
+      "description": "AI-assisted article outline generation"
+    },
+    "articles": {
+      "title": "Write Articles",
+      "description": "Create and edit articles with AI assistance"
+    },
+    "publishing": {
+      "title": "Publish Content",
+      "description": "Multi-platform content publishing"
+    },
+    "step1": {
+      "title": "Setup",
+      "description": "Configure your styles and products",
+      "links": {
+        "setupStyleProfiles": "Setup Style Profiles",
+        "manageMerchandise": "Manage Merchandise"
+      }
+    },
+    "step2": {
+      "title": "Generate Outlines",
+      "description": "AI-assisted article outline generation",
+      "links": {
+        "viewOutlines": "View Outlines"
+      }
+    },
+    "step3": {
+      "title": "Write Articles",
+      "description": "Create and edit articles with AI assistance",
+      "links": {
+        "draftArticles": "Draft Articles"
+      }
+    },
+    "step4": {
+      "title": "Publish",
+      "description": "Multi-platform content publishing",
+      "links": {
+        "startPublishing": "Start Publishing"
+      }
+    }
+  },
+  "arrows": {
+    "styleToOutlines": "Style guides content creation",
+    "merchandiseToOutlines": "Product info enhances outlines",
+    "outlinesToArticles": "Structured writing foundation",
+    "articlesToPublishing": "Content ready for distribution"
+  }
+} 

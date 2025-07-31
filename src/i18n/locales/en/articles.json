@@ -1,0 +1,438 @@
+{
+  "title": "Article Library",
+  "subtitle": "Browse, manage, and edit your generated articles.",
+  "loading": "Loading Articles...",
+  "loadingListing": "Loading articles...",
+  "error": {
+    "title": "Oops! Something went wrong.",
+    "tryAgain": "Try Again",
+    "fetchFailed": "Failed to load articles.",
+    "archiveFailed": "Failed to archive. Please try again."
+  },
+  "buttons": {
+    "newArticle": "New Article",
+    "search": "Search",
+    "edit": "Edit Article",
+    "archive": "Archive",
+    "previous": "Previous",
+    "next": "Next"
+  },
+  "filters": {
+    "titleSearch": "Title Search",
+    "titlePlaceholder": "Search by article title...",
+    "status": "Status",
+    "statusPlaceholder": "Select status",
+    "writingPurpose": "Writing Purpose",
+    "purposePlaceholder": "Search by purpose...",
+    "audience": "Audience", 
+    "audiencePlaceholder": "Search by audience..."
+  },
+  "statusOptions": {
+    "all": "All Statuses",
+    "queued": "Queued",
+    "processing": "Processing",
+    "draft": "Draft",
+    "pendingPublish": "Pending Publish",
+    "published": "Published",
+    "archived": "Archived",
+    "generationFailed": "Generation Failed"
+  },
+  "statusDisplay": {
+    "pending_publish": "PENDING PUBLISH",
+    "generation_failed": "GENERATION FAILED",
+    "published": "PUBLISHED",
+    "draft": "DRAFT",
+    "archived": "ARCHIVED",
+    "queued": "QUEUED",
+    "processing": "PROCESSING"
+  },
+  "table": {
+    "headers": {
+      "title": "Title",
+      "status": "Status",
+      "writingPurpose": "Writing Purpose",
+      "targetAudience": "Target Audience",
+      "details": "Details",
+      "actions": "Actions"
+    },
+    "statusMessages": {
+      "processing": "Processing content...",
+      "queued": "Queued for processing...",
+      "generationFailed": "Generation failed - Cannot edit",
+      "cannotEditGenFailed": "Cannot edit - Generation failed",
+      "beingGenerated": "Article is being generated"
+    },
+    "noData": "N/A"
+  },
+  "emptyState": {
+    "noArticles": "No articles found matching your criteria.",
+    "adjustFilters": "Try adjusting or clearing your filters."
+  },
+  "archive": {
+    "confirm": "Are you sure you want to archive the article \"{title}\"?",
+    "loading": "Archiving article...",
+    "success": "Article \"{title}\" has been archived."
+  },
+  "newArticle": {
+    "title": "Create New Article",
+    "description": "Set up a new article by selecting an outline and configuring details.",
+    "form": {
+      "selectOutline": {
+        "label": "Select Outline",
+        "placeholder": "Choose an outline..."
+      },
+      "styleProfile": {
+        "label": "Style Profile",
+        "derived": "(Derived from outline)"
+      },
+      "targetAudience": {
+        "label": "Target Audience",
+        "recommended": "Recommended:",
+        "custom": "Custom Audience",
+        "customPlaceholder": "Enter custom audience...",
+        "selectOrCustom": "Select recommended audience or enter custom"
+      },
+      "merchandise": {
+        "label": "Merchandise",
+        "derived": "(From selected outline)",
+        "none": "None"
+      },
+      "writingPurpose": {
+        "label": "Writing Purpose",
+        "description": "Select one or more purposes or add custom ones:",
+        "predefined": {
+          "awareness": "Brand Awareness",
+          "leadgen": "Lead Generation", 
+          "education": "Education",
+          "branding": "Branding",
+          "sales": "Sales Promotion",
+          "retention": "Customer Retention",
+          "seo": "SEO Strategy",
+          "recruitment": "Recruitment PR"
+        },
+        "predefinedDescriptions": {
+          "awareness": "Increase brand visibility",
+          "leadgen": "Acquire new prospects",
+          "education": "Provide users with knowledge & skills",
+          "branding": "Strengthen brand image",
+          "sales": "Promote sales of products & services",
+          "retention": "Maintain relationships with existing customers",
+          "seo": "Optimize for search engines",
+          "recruitment": "Attract talent & promote employer brand"
+        },
+        "customInput": "Add custom purpose...",
+        "addCustom": "Add Custom",
+        "customEmpty": "Custom purpose cannot be empty.",
+        "customExists": "\"{purpose}\" is already a custom purpose."
+      }
+    },
+    "buttons": {
+      "cancel": "Cancel",
+      "create": "Create Article"
+    },
+    "validation": {
+      "selectOutline": "Please select an outline.",
+      "enterCustomAudience": "Please enter a custom audience.",
+      "selectOrEnterAudience": "Please select an audience or enter a custom one.",
+      "selectPurpose": "Please select at least one writing purpose."
+    },
+    "loading": {
+      "outlines": "Loading outlines...",
+      "creating": "Creating article..."
+    },
+    "toast": {
+      "outlinesFailed": "Failed to load outlines.",
+      "createSuccess": "Article creation started. Check the queue status for progress.",
+      "createFailed": "Failed to create article. Please try again."
+    }
+  },
+  "editor": {
+    "loading": {
+      "article": "Loading article...",
+      "saving": "Saving...",
+      "updating": "Updating..."
+    },
+    "error": {
+      "loadFailed": "Failed to load article or article not found.",
+      "displayError": "Error displaying article content.",
+      "aiDataFormat": "AI returned data format error",
+      "localStorageFull": "Unable to save image state locally. Local storage may be full.",
+      "loadImageStates": "Unable to load image states due to error. Cache may have been cleared.",
+      "missingArticleId": "Article ID is missing."
+    },
+    "navigation": {
+      "backToArticles": "Articles",
+      "untitledArticle": "Untitled Article"
+    },
+    "toolbar": {
+      "save": "Save",
+      "saving": "Saving...",
+      "autoSaving": "Auto-saving...",
+      "autoSaved": "Auto-saved",
+      "unsavedChanges": "Unsaved changes",
+      "publish": "Publish",
+      "publishing": "Updating...",
+      "toDraft": "To Draft",
+      "generateLogs": "Generate Logs",
+      "viewAnalysis": "View AI Article Analysis",
+      "undo": "Undo",
+      "redo": "Redo",
+      "bold": "Bold",
+      "italic": "Italic",
+      "underline": "Underline",
+      "strikethrough": "Strikethrough",
+      "code": "Code",
+      "paragraph": "Paragraph",
+      "heading1": "Heading 1",
+      "heading2": "Heading 2", 
+      "heading3": "Heading 3",
+      "bulletList": "Bullet List",
+      "orderedList": "Numbered List",
+      "quote": "Quote",
+      "insertCallout": "Insert Callout",
+      "note": "Note",
+      "tip": "Tip",
+      "warning": "Warning",
+      "important": "Important",
+      "caution": "Caution",
+      "removeCallout": "Remove Callout",
+      "insertLink": "Insert Link",
+      "insertImage": "Insert Image",
+      "aiPolish": "AI Polish",
+      "aiAssistant": "AI Assistant",
+      "alignLeft": "Align Left",
+      "alignCenter": "Align Center",
+      "alignRight": "Align Right",
+      "format": "Format",
+      "insertLinkDialog": {
+        "title": "Insert Link",
+        "description": "Please enter the link URL",
+        "placeholder": "https://example.com"
+      },
+      "insertImageDialog": {
+        "title": "Insert Image",
+        "description": "Please enter the image URL",
+        "placeholder": "https://example.com/image.jpg"
+      }
+    },
+    "aiFloatingPanel": {
+      "title": "AI Assistant",
+              "customMode": {
+          "placeholder": "Describe what you want to do...",
+        "execute": "Execute",
+        "cancel": "Cancel",
+        "switchTo": "Switch to custom prompt"
+      },
+      "actions": {
+        "improve": "Improve your writing",
+        "grammar": "Check spelling and grammar",
+        "summarize": "Summarize",
+        "shorter": "Make shorter",
+        "longer": "Make longer"
+      },
+      "translate": {
+        "title": "Translate to",
+        "languages": {
+          "en": "English",
+          "zh": "Chinese",
+          "ja": "Japanese",
+          "fr": "French",
+          "de": "German",
+          "pt": "Portuguese",
+          "es": "Spanish",
+          "ko": "Korean",
+          "ru": "Russian",
+          "it": "Italian",
+          "ar": "Arabic",
+          "th": "Thai"
+        }
+      },
+      "length": {
+        "title": "Adjust length"
+      },
+      "customPrompt": {
+        "placeholder": "Enter custom instruction...",
+        "execute": "Execute"
+      },
+      "languageSelection": {
+        "title": "Select target language",
+        "placeholder": "Choose language...",
+        "search": "Search languages...",
+        "translate": "Translate to"
+      },
+      "actionsPrompt": "You can do the following:",
+      "selectedTextPrompt": "Selected text will be processed with your chosen action",
+      "dragToMove": "Drag to move panel",
+      "close": "Close"
+    },
+    "callouts": {
+      "note": "Note",
+      "tip": "Tip",
+      "warning": "Warning",
+      "important": "Important",
+      "caution": "Caution",
+      "cycleTooltip": "Click to cycle callout type (current: {type})"
+    },
+    "content": {
+      "placeholder": "Start writing your great article...",
+      "close": "Close"
+    },
+    "imageManagement": {
+      "title": "Image Management",
+      "addImage": "Add Image",
+      "aiGenerate": "AI Generate",
+      "aiGenerateDesc": "Create with AI prompt",
+      "uploadImage": "Upload Image", 
+      "uploadImageDesc": "Upload local file",
+      "noPlaceholders": "No image placeholders added yet. Click 'AI Generate' or 'Upload' to start.",
+      "loadingControls": "Loading image controls...",
+      "imagePreview": "Image Preview"
+    },
+    "imageControl": {
+      "missing": "Missing",
+      "missingTooltip": "Placeholder not found in current content",
+      "promptPlaceholder": "Enter image prompt for {tag}",
+      "selectFile": "Select Image File",
+      "replaceFile": "Replace: {filename}",
+      "selectedFile": "Selected: {filename}",
+      "generating": "Generating image...",
+      "uploading": "Uploading image...",
+      "generateFailed": "Error: {error}",
+      "unknownError": "Unknown error",
+      "generateBtn": "Generate Image",
+      "regenerateBtn": "Re-generate", 
+      "generatingBtn": "Generating...",
+      "insert": "Insert",
+      "aiType": "AI Generate",
+      "uploadType": "Upload"
+    },
+    "imageGenControl": {
+      "placeholder": "Placeholder:",
+      "promptPlaceholder": "Enter image generation prompt for {tag}...",
+      "generating": "Generating image...",
+      "generateFailed": "Image generation failed",
+      "previewArea": "Image Preview Area",
+      "generateButton": "Generate Image (Flow 6)",
+      "generatingButton": "Generating...",
+      "copyMarkdown": "Copy Markdown",
+      "reasonLabel": "Reason:",
+      "toast": {
+        "markdownCopied": "Image Markdown copied to clipboard!",
+        "copyFailed": "Failed to copy markdown.",
+        "noImageUrl": "No generated image URL available to copy."
+      }
+    },
+    "aiActions": {
+      "improve": "Improve your writing",
+      "grammar": "Check spelling and grammar",
+      "summarize": "Summarize",
+      "shorter": "Make shorter",
+      "longer": "Make longer"
+    },
+    "confirmDialog": {
+      "publishTitle": "Publish Article",
+      "publishDesc": "Are you sure you want to publish this article? It will be visible to readers.",
+      "publishConfirm": "Publish Now",
+      "draftTitle": "Move to Draft", 
+      "draftDesc": "Are you sure you want to move this article back to draft status?",
+      "draftConfirm": "Move to Draft",
+      "cancel": "Cancel"
+    },
+    "toast": {
+          "saveSuccess": "Article saved successfully!",
+    "saveFailed": "Failed to save article: {error}",
+    "imagesStillGenerating": "Note: {count} image(s) still generating ({tags}). Consider waiting for completion before saving",
+      "statusUpdateSuccess": "Article status updated to {status}!",
+      "statusUpdateFailed": "Failed to update article status: {error}",
+      "aiActionFailed": "AI action failed: {error}",
+      "imageGenerateSuccess": "Image generated successfully for {tag}!",
+      "imageGenerateFailed": "Image generation failed: {error}",
+      "imageUploadSuccess": "Image uploaded successfully for {tag}!",
+      "imageUploadFailed": "Image upload failed: {error}",
+      "imageInsertSuccess": "Image inserted into article!",
+      "contentRequired": "Content is required to save the article.",
+      "invalidFile": "Please select a valid image file.",
+      "promptRequired": "Please enter a prompt for the image.",
+      "imageInsertedAtCursor": "Image inserted at cursor position!",
+      "failedToInsertImage": "Failed to insert image: {error}",
+      "couldNotReplaceplaceholder": "Failed to insert image: Could not replace placeholder",
+      "imageHtmlCopiedToClipboard": "Image HTML copied to clipboard!",
+      "addedNewPlaceholder": "Added new {type} placeholder: {tag}. You can move it in the editor.",
+      "teamInfoMissing": "Team information is missing. Cannot generate image.",
+      "generatingImage": "Generating image for {tag}...",
+      "imageNotReady": "Image is not ready for insertion."
+    },
+    "insertImageDialog": {
+      "placeholderNotFound": "Placeholder Not Found",
+      "placeholderNotFoundDesc": "Placeholder {tag} was not found in the current content.",
+      "editedContentNote": "This may be because you edited the content and removed the placeholder.",
+      "chooseHowToHandle": "Choose how to handle:",
+      "insertAtCursor": "Insert at Cursor",
+      "insertAtCursorDesc": "Insert the image at the current cursor position in the editor",
+      "copyToClipboard": "Copy to Clipboard", 
+      "copyToClipboardDesc": "Copy the image HTML to clipboard for manual pasting",
+      "manualCopyHtml": "Manual Copy HTML",
+      "unableToCopyToClipboard": "Unable to automatically copy to clipboard. Please manually copy the following HTML code:",
+      "iveCopied": "I've Copied",
+      "close": "Close"
+    },
+    "aiToolbar": {
+      "noContentToProcess": "No content to process. Please select text or add content first.",
+      "customAiRequest": "Custom AI Request",
+      "aiProcessing": "AI Processing",
+      "aiProcessingCompleted": "AI processing completed!"
+    },
+    "aiResultModal": {
+      "title": "AI Processing Result",
+      "loading": "AI is processing...",
+      "iteratedBadge": "Iterated {times} times",
+      "sections": {
+        "original": "Original",
+        "aiSuggestion": "AI Suggestion",
+        "iteratedLabel": "(Iterated)",
+        "currentVersion": "Current Version"
+      },
+      "states": {
+        "noChanges": "No content changes",
+        "editingMode": "Editing mode"
+      },
+      "buttons": {
+        "edit": "Edit",
+        "optimize": "Optimize",
+        "cancel": "Cancel",
+        "save": "Save",
+        "accept": "Accept Suggestion",
+        "reject": "Reject",
+        "viewComparison": "View Comparison"
+      },
+      "toast": {
+        "textReplaced": "Selected text has been replaced with AI suggestion!",
+        "textInsertedAtCursor": "AI suggestion has been inserted at cursor position!",
+        "contentReplaced": "Content has been replaced with AI suggestion!"
+      },
+      "placeholders": {
+        "editContent": "Edit the AI suggested content...",
+        "chatInput": "Please describe the adjustments you want, e.g., make it more concise..."
+      },
+      "chat": {
+        "initialMessage": "I have optimized the text for you. What other adjustments would you like to make? For example:\\n\\n• \"Please make it more concise\"\\n• \"Make the tone more professional\"\\n• \"Add more details\"\\n• \"Use a different expression\"",
+        "adjustedPrefix": "Adjusted according to your requirements:\\n\\n",
+        "errorMessage": "Sorry, an error occurred while processing your request.",
+        "errorCauses": "Possible causes:\\n• Network connection issues\\n• AI service temporarily unavailable\\n• Request format error",
+        "formatErrorMessage": "The server returned abnormal data format, please try again later.",
+        "unknownError": "Unknown error, please try again later.",
+        "errorDetails": "Error details: {error}",
+        "userLabel": "You",
+        "assistantLabel": "AI Assistant",
+        "thinking": "Thinking...",
+        "processing": "AI is processing your request..."
+      }
+    },
+    "selectionMenu": {
+      "copy": "Copy",
+      "cut": "Cut", 
+      "aiAssistant": "AI Assistant",
+      "aiPolish": "AI Polish"
+    }
+  }
+} 

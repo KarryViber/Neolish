@@ -1,0 +1,444 @@
+{
+  "title": "文章库",
+  "subtitle": "浏览、管理和编辑您生成的文章。",
+  "loading": "正在加载文章...",
+  "loadingListing": "正在加载文章...",
+  "error": {
+    "title": "哎呀！出了点问题。",
+    "tryAgain": "重试",
+    "fetchFailed": "加载文章失败。",
+    "archiveFailed": "归档失败。请重试。"
+  },
+  "buttons": {
+    "newArticle": "新建文章",
+    "search": "搜索",
+    "edit": "编辑文章",
+    "archive": "归档",
+    "previous": "上一页",
+    "next": "下一页"
+  },
+  "filters": {
+    "titleSearch": "标题搜索",
+    "titlePlaceholder": "按文章标题搜索...",
+    "status": "状态",
+    "statusPlaceholder": "选择状态",
+    "writingPurpose": "写作目的",
+    "purposePlaceholder": "按目的搜索...",
+    "audience": "目标受众", 
+    "audiencePlaceholder": "按受众搜索..."
+  },
+  "statusOptions": {
+    "all": "所有状态",
+    "queued": "排队中",
+    "processing": "处理中",
+    "draft": "草稿",
+    "pendingPublish": "待发布",
+    "published": "已发布",
+    "archived": "已归档",
+    "generationFailed": "生成失败"
+  },
+  "statusDisplay": {
+    "pending_publish": "待发布",
+    "generation_failed": "生成失败",
+    "published": "已发布",
+    "draft": "草稿",
+    "archived": "已归档",
+    "queued": "排队中",
+    "processing": "处理中"
+  },
+  "table": {
+    "headers": {
+      "title": "标题",
+      "status": "状态",
+      "writingPurpose": "写作目的",
+      "targetAudience": "目标受众",
+      "details": "详情",
+      "actions": "操作"
+    },
+    "statusMessages": {
+      "processing": "正在处理内容...",
+      "queued": "排队处理中...",
+      "generationFailed": "生成失败 - 无法编辑",
+      "cannotEditGenFailed": "无法编辑 - 生成失败",
+      "beingGenerated": "文章正在生成中"
+    },
+    "noData": "暂无"
+  },
+  "emptyState": {
+    "noArticles": "未找到符合条件的文章。",
+    "adjustFilters": "请尝试调整或清除筛选条件。"
+  },
+  "archive": {
+    "confirm": "确定要归档文章\"{title}\"吗？",
+    "loading": "正在归档文章...",
+    "success": "文章\"{title}\"已归档。"
+  },
+  "newArticle": {
+    "title": "创建新文章",
+    "description": "通过选择大纲和配置详情来创建新文章。",
+    "form": {
+      "selectOutline": {
+        "label": "选择大纲",
+        "placeholder": "选择大纲..."
+      },
+      "styleProfile": {
+        "label": "风格配置",
+        "derived": "（来自大纲）"
+      },
+      "targetAudience": {
+        "label": "目标受众",
+        "recommended": "推荐：",
+        "custom": "自定义受众",
+        "customPlaceholder": "输入自定义受众...",
+        "selectOrCustom": "选择推荐受众或输入自定义受众"
+      },
+      "merchandise": {
+        "label": "商材",
+        "derived": "（来自所选大纲）",
+        "none": "无"
+      },
+      "writingPurpose": {
+        "label": "写作目的",
+        "description": "选择一个或多个目的，或添加自定义目的：",
+        "predefined": {
+          "awareness": "品牌认知",
+          "leadgen": "获客引流", 
+          "education": "教育科普",
+          "branding": "品牌建设",
+          "sales": "销售推广",
+          "retention": "客户留存",
+          "seo": "SEO优化",
+          "recruitment": "招聘宣传"
+        },
+        "predefinedDescriptions": {
+          "awareness": "提高品牌知名度",
+          "leadgen": "获取新潜在客户",
+          "education": "为用户提供知识和技能",
+          "branding": "强化品牌形象",
+          "sales": "推广产品和服务销售",
+          "retention": "维护与现有客户的关系",
+          "seo": "搜索引擎优化",
+          "recruitment": "吸引人才并推广雇主品牌"
+        },
+        "customInput": "添加自定义目的...",
+        "addCustom": "添加自定义",
+        "customEmpty": "自定义目的不能为空。",
+        "customExists": "\"{purpose}\"已经是自定义目的。"
+      }
+    },
+    "buttons": {
+      "cancel": "取消",
+      "create": "创建文章"
+    },
+    "validation": {
+      "selectOutline": "请选择大纲。",
+      "enterCustomAudience": "请输入自定义受众。",
+      "selectOrEnterAudience": "请选择受众或输入自定义受众。",
+      "selectPurpose": "请至少选择一个写作目的。"
+    },
+    "loading": {
+      "outlines": "正在加载大纲...",
+      "creating": "正在创建文章..."
+    },
+    "toast": {
+      "outlinesFailed": "加载大纲失败。",
+      "createSuccess": "文章创建已开始。请查看队列状态了解进度。",
+      "createFailed": "创建文章失败。请重试。"
+    }
+  },
+  "editor": {
+    "loading": {
+      "article": "正在加载文章...",
+      "saving": "正在保存...",
+      "updating": "正在更新..."
+    },
+    "error": {
+      "loadFailed": "加载文章失败或文章未找到。",
+      "displayError": "显示文章内容时出错。",
+      "aiDataFormat": "AI返回的数据格式错误",
+      "localStorageFull": "无法在本地保存图片状态。本地存储可能已满。",
+      "loadImageStates": "由于错误无法加载图片状态。缓存可能已被清除。",
+      "missingArticleId": "文章ID缺失。"
+    },
+    "navigation": {
+      "backToArticles": "文章",
+      "untitledArticle": "无标题文章"
+    },
+    "toolbar": {
+      "save": "保存",
+      "saving": "保存中...",
+      "autoSaving": "自动保存中...",
+      "autoSaved": "自动保存",
+      "unsavedChanges": "有未保存的更改",
+      "publish": "发布",
+      "publishing": "更新中...",
+      "toDraft": "转为草稿",
+      "generateLogs": "生成日志",
+      "viewAnalysis": "查看生成日志",
+      "undo": "撤销",
+      "redo": "重做",
+      "bold": "粗体",
+      "italic": "斜体",
+      "underline": "下划线",
+      "strikethrough": "删除线",
+      "code": "代码",
+      "paragraph": "段落",
+      "heading1": "标题 1",
+      "heading2": "标题 2",
+      "heading3": "标题 3",
+      "bulletList": "项目符号列表",
+      "orderedList": "编号列表",
+      "quote": "引用",
+      "insertCallout": "插入标注",
+      "note": "注释",
+      "tip": "提示",
+      "warning": "警告",
+      "important": "重要",
+      "caution": "注意",
+      "removeCallout": "移除标注",
+      "insertLink": "插入链接",
+      "insertImage": "插入图片",
+      "aiPolish": "AI Polish",
+      "aiAssistant": "AI Polish",
+      "alignLeft": "左对齐",
+      "alignCenter": "居中对齐",
+      "alignRight": "右对齐",
+      "format": "格式",
+      "insertLinkDialog": {
+        "title": "插入链接",
+        "description": "请输入链接地址",
+        "placeholder": "https://example.com"
+      },
+      "insertImageDialog": {
+        "title": "插入图片",
+        "description": "请输入图片地址",
+        "placeholder": "https://example.com/image.jpg"
+      }
+    },
+    "content": {
+      "placeholder": "开始撰写您的精彩文章...",
+      "close": "关闭"
+    },
+    "imageManagement": {
+      "title": "图片管理",
+      "addImage": "添加图片",
+      "aiGenerate": "AI生成",
+      "aiGenerateDesc": "使用AI提示创建",
+      "uploadImage": "上传图片", 
+      "uploadImageDesc": "上传本地文件",
+      "noPlaceholders": "尚未添加图片占位符。点击\"AI生成\"或\"上传\"开始。",
+      "loadingControls": "正在加载图片控件...",
+      "imagePreview": "图片预览"
+    },
+    "imageControl": {
+      "missing": "缺失",
+      "missingTooltip": "在当前内容中未找到占位符",
+      "promptPlaceholder": "为 {tag} 输入图片提示",
+      "selectFile": "选择图片文件",
+      "replaceFile": "替换：{filename}",
+      "selectedFile": "已选择：{filename}",
+      "generating": "正在生成图片...",
+      "uploading": "正在上传图片...",
+      "generateFailed": "错误：{error}",
+      "unknownError": "未知错误",
+      "generateBtn": "生成图片",
+      "regenerateBtn": "重新生成",
+      "generatingBtn": "生成中...",
+      "insert": "插入",
+      "aiType": "AI生成",
+      "uploadType": "上传"
+    },
+    "imageGenControl": {
+      "placeholder": "占位符：",
+      "promptPlaceholder": "为 {tag} 输入图片生成提示...",
+      "generating": "正在生成图片...",
+      "generateFailed": "图片生成失败",
+      "previewArea": "图片预览区域",
+      "generateButton": "生成图片 (Flow 6)",
+      "generatingButton": "生成中...",
+      "copyMarkdown": "复制Markdown",
+      "reasonLabel": "原因：",
+      "toast": {
+        "markdownCopied": "图片Markdown已复制到剪贴板！",
+        "copyFailed": "复制markdown失败。",
+        "noImageUrl": "没有可复制的生成图片URL。"
+      }
+    },
+    "aiActions": {
+      "improve": "改善你的写作",
+      "grammar": "检查拼写和语法",
+      "summarize": "总结",
+      "shorter": "缩短内容",
+      "longer": "扩展内容"
+    },
+    "confirmDialog": {
+      "publishTitle": "发布文章",
+      "publishDesc": "确定要发布这篇文章吗？读者将能够看到它。",
+      "publishConfirm": "立即发布",
+      "draftTitle": "转为草稿", 
+      "draftDesc": "确定要将这篇文章改回草稿状态吗？",
+      "draftConfirm": "转为草稿",
+      "cancel": "取消"
+    },
+    "toast": {
+          "saveSuccess": "文章保存成功！",
+    "saveFailed": "保存文章失败：{error}",
+    "imagesStillGenerating": "注意：还有 {count} 个图片正在生成中（{tags}），建议等待完成后再保存",
+      "statusUpdateSuccess": "文章状态已更新为{status}！",
+      "statusUpdateFailed": "更新文章状态失败：{error}",
+      "aiActionFailed": "AI操作失败：{error}",
+      "imageGenerateSuccess": "图片生成成功！",
+      "imageGenerateFailed": "生成图片失败：{error}",
+      "imageUploadSuccess": "图片上传成功！",
+      "imageUploadFailed": "上传图片失败：{error}",
+      "imageInsertSuccess": "图片已插入文章！",
+      "contentRequired": "保存文章需要内容。",
+      "invalidFile": "请选择有效的图片文件。",
+      "promptRequired": "请为图片输入提示。",
+      "imageInsertedAtCursor": "图片已插入光标位置！",
+      "failedToInsertImage": "插入图片失败：{error}",
+      "couldNotReplaceplaceholder": "插入图片失败：无法替换占位符",
+      "imageHtmlCopiedToClipboard": "图片HTML已复制到剪贴板！",
+      "addedNewPlaceholder": "已添加新的{type}占位符：{tag}。您可以在编辑器中移动它。",
+      "teamInfoMissing": "团队信息缺失。无法生成图片。",
+      "generatingImage": "正在为{tag}生成图片...",
+      "imageGenerateSuccess": "已成功为{tag}生成图片！",
+      "imageGenerateFailed": "图片生成失败：{error}",
+      "invalidImageControl": "无效的图片控件，无法上传。",
+      "uploadingImage": "正在为{tag}上传图片...",
+      "imageUploadSuccess": "已成功为{tag}上传图片！",
+      "imageUploadFailed": "图片上传失败：{error}",
+      "imageNotReady": "图片未准备好插入。"
+    },
+    "insertImageDialog": {
+      "placeholderNotFound": "未找到占位符",
+      "placeholderNotFoundDesc": "在当前内容中未找到占位符 {tag}。",
+      "editedContentNote": "这可能是因为您编辑了内容并移除了占位符。",
+      "chooseHowToHandle": "选择处理方式：",
+      "insertAtCursor": "在光标处插入",
+      "insertAtCursorDesc": "在编辑器的当前光标位置插入图片",
+      "copyToClipboard": "复制到剪贴板", 
+      "copyToClipboardDesc": "将图片HTML复制到剪贴板以便手动粘贴",
+      "manualCopyHtml": "手动复制HTML",
+      "unableToCopyToClipboard": "无法自动复制到剪贴板。请手动复制以下HTML代码：",
+      "iveCopied": "我已复制",
+      "close": "关闭"
+    },
+    "aiToolbar": {
+      "noContentToProcess": "没有内容可处理。请选择文本或添加内容。",
+      "customAiRequest": "自定义AI请求",
+      "aiProcessing": "AI处理中",
+      "aiProcessingCompleted": "AI处理完成！"
+    },
+    "aiResultModal": {
+      "title": "AI处理结果",
+      "loading": "AI正在处理中...",
+      "iteratedBadge": "已迭代 {times} 次",
+      "sections": {
+        "original": "原文",
+        "aiSuggestion": "AI建议",
+        "iteratedLabel": "（已迭代）",
+        "currentVersion": "当前版本"
+      },
+      "states": {
+        "noChanges": "内容无变化",
+        "editingMode": "编辑模式"
+      },
+      "buttons": {
+        "edit": "编辑",
+        "optimize": "优化",
+        "cancel": "取消",
+        "save": "保存",
+        "accept": "接受建议",
+        "reject": "拒绝",
+        "viewComparison": "查看对比"
+      },
+      "toast": {
+        "textReplaced": "已将选中文本替换为AI建议！",
+        "textInsertedAtCursor": "AI建议已插入到光标位置！",
+        "contentReplaced": "内容已替换为AI建议！"
+      },
+      "placeholders": {
+        "editContent": "编辑AI建议的内容...",
+        "chatInput": "请描述您想要的调整，例如：使其更简洁..."
+      },
+      "chat": {
+        "initialMessage": "我已为您优化了文本。您还想做什么其他调整？例如：\\n\\n• \"请使其更简洁\"\\n• \"使语调更专业\"\\n• \"添加更多细节\"\\n• \"使用不同的表达方式\"",
+        "adjustedPrefix": "根据您的要求进行了调整：\\n\\n",
+        "errorMessage": "抱歉，处理您的请求时发生错误。",
+        "errorCauses": "可能的原因：\\n• 网络连接问题\\n• AI服务暂时不可用\\n• 请求格式错误",
+        "formatErrorMessage": "服务器返回了异常的数据格式，请稍后再试。",
+        "unknownError": "未知错误，请稍后再试。",
+        "errorDetails": "错误详情：{error}",
+        "userLabel": "您",
+        "assistantLabel": "AI助手",
+        "thinking": "正在思考...",
+        "processing": "AI正在处理您的请求..."
+      }
+    },
+    "aiFloatingPanel": {
+      "title": "AI Polish",
+              "customMode": {
+          "placeholder": "描述您想要做什么...",
+        "execute": "执行",
+        "cancel": "取消",
+        "switchTo": "切换到自定义提示"
+      },
+      "actions": {
+        "improve": "改善你的写作",
+        "grammar": "检查拼写和语法",
+        "summarize": "总结",
+        "shorter": "缩短",
+        "longer": "加长"
+      },
+      "translate": {
+        "title": "翻译为",
+        "languages": {
+          "en": "英语",
+          "zh": "中文",
+          "ja": "日语",
+          "fr": "法语",
+          "de": "德语",
+          "pt": "葡萄牙语",
+          "es": "西班牙语",
+          "ko": "韩语",
+          "ru": "俄语",
+          "it": "意大利语",
+          "ar": "阿拉伯语",
+          "th": "泰语"
+        }
+      },
+      "length": {
+        "title": "调整长度"
+      },
+      "customPrompt": {
+        "placeholder": "输入自定义指令...",
+        "execute": "执行"
+      },
+      "languageSelection": {
+        "title": "选择目标语言",
+        "placeholder": "选择语言...",
+        "search": "搜索语言...",
+        "translate": "翻译为"
+      },
+      "actionsPrompt": "您可以执行以下操作：",
+      "selectedTextPrompt": "选中的文本将使用您选择的操作进行处理",
+      "dragToMove": "拖拽移动面板",
+      "close": "关闭"
+    },
+    "callouts": {
+      "note": "注释",
+      "tip": "提示",
+      "warning": "警告",
+      "important": "重要",
+      "caution": "注意",
+      "cycleTooltip": "点击切换标注类型 (当前: {type})"
+    },
+    "selectionMenu": {
+      "copy": "复制",
+      "cut": "剪切", 
+      "aiAssistant": "AI Polish",
+      "aiPolish": "AI Polish"
+    }
+  }
+} 

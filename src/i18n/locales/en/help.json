@@ -1,0 +1,85 @@
+{
+  "general": {
+    "title": "Help & Getting Started",
+    "subtitle": "Learn how to make the most of Neolish",
+    "close": "Close"
+  },
+  "welcome": {
+    "title": "Welcome to Neolish!",
+    "content": "Welcome to Neolish! This AI-powered content creation platform helps you write amazing articles with ease."
+  },
+  "quickStart": {
+    "title": "Quick Start Guide",
+    "steps": [
+      "Create style profiles to define your writing tone and style",
+      "Add merchandise information for product-focused articles",
+      "Generate article outlines based on your style and key points",
+      "Write and edit articles with AI assistance",
+      "Publish your content to multiple platforms"
+    ]
+  },
+  "features": {
+    "title": "Key Features",
+    "styleProfiles": "Style Profiles: Define your unique writing voice",
+    "merchandise": "Merchandise Management: Organize product information",
+    "outlines": "AI Outlines: Generate structured article plans",
+    "editor": "Smart Editor: Write with AI-powered assistance",
+    "publishing": "Multi-Platform Publishing: Share across channels"
+  },
+  "tips": {
+    "title": "Pro Tips",
+    "content": [
+      "Use detailed style profiles for more consistent AI-generated content",
+      "Combine multiple merchandise items in a single outline for comprehensive articles",
+      "Edit and refine AI-generated outlines before writing",
+      "Take advantage of the markdown editor for rich formatting",
+      "Preview your articles before publishing to multiple platforms"
+    ]
+  },
+  "publishing": {
+    "title": "Publishing Your Work",
+    "content": "Publish your finished articles to various platforms directly from Neolish. Connect your accounts and streamline your publishing workflow."
+  },
+  "support": {
+    "title": "Need More Help?",
+    "content": "If you need additional assistance, please contact our support team or check our documentation."
+  },
+  "title": "Help Guide",
+  "gotIt": "Got it!",
+  "sections": {
+    "gettingStarted": {
+      "title": "Getting Started",
+      "content": "Welcome to Neolish! This AI-powered content creation platform helps you write amazing articles with ease."
+    },
+    "dashboard": {
+      "title": "Dashboard",
+      "content": "Your dashboard provides an overview of your content creation activities, recent articles, and quick access to all features."
+    },
+    "styleProfiles": {
+      "title": "Style Profiles",
+      "content": "Create and manage writing style profiles by analyzing URLs or defining custom styles. These profiles help maintain consistency across your content."
+    },
+    "articles": {
+      "title": "Articles",
+      "content": "Manage your articles, create new content, and access the AI-powered editor for enhanced writing assistance."
+    },
+    "outlines": {
+      "title": "Outlines",
+      "content": "Generate AI-powered article outlines to structure your content before writing. Use outlines as a foundation for your articles."
+    },
+    "publishing": {
+      "title": "Publishing",
+      "content": "Publish your finished articles to various platforms directly from Neolish. Connect your accounts and streamline your publishing workflow."
+    },
+    "merchandise": {
+      "title": "Merchandise",
+      "content": "Manage product information and create compelling product descriptions using AI assistance."
+    }
+  },
+  "shortcuts": {
+    "title": "Keyboard Shortcuts",
+    "toggle": "Toggle Help: F1 or ?",
+    "navigation": "Navigate: Arrow Keys",
+    "close": "Close: Esc"
+  }
+} 

@@ -1,0 +1,116 @@
+{
+  "title": "大纲管理",
+  "subtitle": "创建、管理和完善您的文章内容大纲。",
+  "loading": "正在加载大纲...",
+  "error": {
+    "title": "哎呀！出了些问题。",
+    "tryAgain": "重试"
+  },
+  "buttons": {
+    "newOutline": "新建大纲",
+    "edit": "编辑",
+    "editOutline": "编辑大纲",
+    "delete": "删除",
+    "save": "保存",
+    "cancel": "取消",
+    "close": "关闭",
+    "generate": "生成大纲",
+    "update": "更新大纲",
+    "expandAll": "全部展开",
+    "collapseAll": "全部收起"
+  },
+  "search": {
+    "titleLabel": "标题搜索",
+    "titlePlaceholder": "按大纲标题搜索...",
+    "styleProfileLabel": "风格配置",
+    "styleProfileAll": "所有风格配置",
+    "styleProfileLoading": "正在加载风格...",
+    "audienceTagsLabel": "受众标签搜索",
+    "audienceTagsPlaceholder": "按受众标签搜索..."
+  },
+  "emptyState": {
+    "noOutlines": "未找到大纲。点击\"+ 新建大纲\"来创建一个。"
+  },
+  "card": {
+    "untitledOutline": "(未命名大纲)",
+    "noKeyPoints": "暂无关键点。",
+    "moreItems": "还有{count}个",
+    "style": "风格：",
+    "createdBy": "创建者：",
+    "created": "创建时间：",
+    "editTitle": "编辑大纲",
+    "deleteTitle": "删除大纲"
+  },
+  "modal": {
+    "new": {
+      "title": "新建大纲",
+      "description": "创建一个新的文章大纲，生成结构化的内容框架。"
+    },
+    "edit": {
+      "title": "编辑大纲",
+      "description": "修改现有大纲的内容、标题或其他属性。"
+    },
+    "view": {
+      "title": "查看大纲：{title}",
+      "description": "查看大纲的详细内容和相关信息。",
+      "noContent": "暂无内容。",
+      "suggestedAudiences": "推荐受众：",
+      "noAudiences": "此大纲暂无受众建议。"
+    },
+    "generating": {
+      "title": "正在生成大纲...",
+      "message": "请稍候，系统正在生成大纲。",
+      "hint": "这可能需要几分钟时间。"
+    }
+  },
+  "form": {
+    "title": {
+      "label": "大纲标题",
+      "placeholder": "为您的大纲输入一个描述性标题"
+    },
+    "keyPoints": {
+      "label": "关键点",
+      "placeholder": "输入您想在文章中涵盖的要点或主题...",
+      "hint": "提供详细的关键点有助于生成全面的大纲。"
+    },
+    "styleProfile": {
+      "label": "风格配置",
+      "placeholder": "选择风格配置",
+      "loading": "加载中..."
+    },
+    "merchandise": {
+      "label": "相关商材（可选）",
+      "placeholder": "选择相关商材",
+      "none": "无"
+    },
+    "content": {
+      "label": "生成的内容",
+      "placeholder": "生成的大纲将在这里显示..."
+    },
+    "required": "*"
+  },
+  "validation": {
+    "titleRequired": "请输入大纲标题。",
+    "styleProfileRequired": "请选择风格配置。",
+    "keyPointsRequired": "请输入您的文章关键点。",
+    "updateMinimum": "至少需要填写标题、内容或关键点中的一项才能更新。",
+    "teamRequired": "团队信息不可用。请确保您已登录并属于某个团队。"
+  },
+  "deleteConfirm": {
+    "message": "您确定要删除大纲\"{title}\"吗？此操作无法撤销。"
+  },
+  "toast": {
+    "loadStyleProfilesError": "无法加载筛选下拉菜单的风格配置。",
+    "fetchStyleProfilesError": "风格配置加载失败。",
+    "fetchMerchandiseError": "商材加载失败。",
+    "updateSuccess": "大纲更新成功！",
+    "deleteSuccess": "大纲\"{title}\"删除成功。",
+    "deleteError": "删除大纲时发生未知错误。",
+    "fetchOutlinesError": "无法加载大纲。",
+    "noChanges": "未检测到更改，无需保存。",
+    "generateSuccess": "大纲生成成功！",
+    "generateError": "大纲生成失败。请重试。",
+    "saveSuccess": "大纲保存成功！",
+    "saveError": "大纲保存失败。请重试。"
+  }
+} 

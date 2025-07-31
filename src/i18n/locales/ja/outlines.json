@@ -1,0 +1,116 @@
+{
+  "title": "アウトライン管理",
+  "subtitle": "記事のコンテンツアウトラインを作成、管理、改善いたします。",
+  "loading": "アウトラインを読み込み中...",
+  "error": {
+    "title": "申し訳ございません！問題が発生いたしました。",
+    "tryAgain": "再試行"
+  },
+  "buttons": {
+    "newOutline": "新しいアウトライン",
+    "edit": "編集",
+    "editOutline": "アウトライン編集",
+    "delete": "削除",
+    "save": "保存",
+    "cancel": "キャンセル",
+    "close": "閉じる",
+    "generate": "アウトライン生成",
+    "update": "アウトライン更新",
+    "expandAll": "すべて展開",
+    "collapseAll": "すべて折りたたむ"
+  },
+  "search": {
+    "titleLabel": "タイトル検索",
+    "titlePlaceholder": "アウトラインタイトルで検索...",
+    "styleProfileLabel": "スタイルプロフィール",
+    "styleProfileAll": "すべてのスタイルプロフィール",
+    "styleProfileLoading": "スタイルを読み込み中...",
+    "audienceTagsLabel": "オーディエンスタグ検索",
+    "audienceTagsPlaceholder": "オーディエンスタグで検索..."
+  },
+  "emptyState": {
+    "noOutlines": "アウトラインが見つかりません。「+ 新規アウトライン」をクリックして作成してください。"
+  },
+  "card": {
+    "untitledOutline": "（無題のアウトライン）",
+    "noKeyPoints": "キーポイントが提供されていません。",
+    "moreItems": "他{count}件",
+    "style": "スタイル：",
+    "createdBy": "作成者：",
+    "created": "作成日：",
+    "editTitle": "アウトラインを編集",
+    "deleteTitle": "アウトラインを削除"
+  },
+  "modal": {
+    "new": {
+      "title": "新規アウトライン",
+      "description": "新しい記事アウトラインを作成し、構造化されたコンテンツフレームワークを生成します。"
+    },
+    "edit": {
+      "title": "アウトライン編集",
+      "description": "既存のアウトラインの内容、タイトル、その他のプロパティを変更します。"
+    },
+    "view": {
+      "title": "アウトライン表示：{title}",
+      "description": "アウトラインの詳細な内容と関連情報を表示します。",
+      "noContent": "コンテンツがありません。",
+      "suggestedAudiences": "推奨オーディエンス：",
+      "noAudiences": "このアウトラインにはオーディエンス提案がありません。"
+    },
+    "generating": {
+      "title": "アウトラインを生成中...",
+      "message": "アウトラインの生成をお待ちください。",
+      "hint": "しばらく時間がかかる場合があります。"
+    }
+  },
+  "form": {
+    "title": {
+      "label": "アウトラインタイトル",
+      "placeholder": "アウトラインの説明的なタイトルを入力してください"
+    },
+    "keyPoints": {
+      "label": "キーポイント",
+      "placeholder": "記事で取り上げたい主要なポイントやトピックを入力してください...",
+      "hint": "詳細なキーポイントを提供すると、包括的なアウトラインの生成に役立ちます。"
+    },
+    "styleProfile": {
+      "label": "スタイルプロフィール",
+      "placeholder": "スタイルプロフィールを選択",
+      "loading": "読み込み中..."
+    },
+    "merchandise": {
+      "label": "関連商材（任意）",
+      "placeholder": "関連商材を選択",
+      "none": "なし"
+    },
+    "content": {
+      "label": "生成されたコンテンツ",
+      "placeholder": "生成されたアウトラインがここに表示されます..."
+    },
+    "required": "*"
+  },
+  "validation": {
+    "titleRequired": "アウトラインタイトルを入力してください。",
+    "styleProfileRequired": "スタイルプロフィールを選択してください。",
+    "keyPointsRequired": "記事のキーポイントを入力してください。",
+    "updateMinimum": "更新するには、少なくともタイトル、コンテンツ、またはキーポイントのいずれかに値が必要です。",
+    "teamRequired": "チーム情報がご利用いただけません。ログインしてチームに所属していることをご確認ください。"
+  },
+  "deleteConfirm": {
+    "message": "アウトライン「{title}」を削除してもよろしいですか？この操作は元に戻すことができません。"
+  },
+  "toast": {
+    "loadStyleProfilesError": "フィルタードロップダウンのスタイルプロフィールを読み込めませんでした。",
+    "fetchStyleProfilesError": "スタイルプロフィールの読み込みに失敗しました。",
+    "fetchMerchandiseError": "商材の読み込みに失敗しました。",
+    "updateSuccess": "アウトラインが正常に更新されました！",
+    "deleteSuccess": "アウトライン「{title}」が正常に削除されました。",
+    "deleteError": "アウトラインの削除中に不明なエラーが発生しました。",
+    "fetchOutlinesError": "アウトラインを読み込めませんでした。",
+    "noChanges": "保存する変更が検出されませんでした。",
+    "generateSuccess": "アウトラインが正常に生成されました！",
+    "generateError": "アウトラインの生成に失敗しました。もう一度お試しください。",
+    "saveSuccess": "アウトラインが正常に保存されました！",
+    "saveError": "アウトラインの保存に失敗しました。もう一度お試しください。"
+  }
+} 
