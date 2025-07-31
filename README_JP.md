@@ -6,9 +6,7 @@
 
 Neolishは、マーケティング担当者向けに特別に設計されたAI駆動のコンテンツ作成プラットフォームです。ユーザーが効率的に高品質なマーケティングコンテンツを作成できるよう支援します。スタイル定義からコンテンツ生成まで、インテリジェントなワークフローを通じて、マーケティングコンテンツの作成をシンプルかつプロフェッショナルにします。
 <img width="1200" height="619" alt="image" src="https://github.com/user-attachments/assets/a30dae89-a08d-4e14-becf-5c59823873d8" />
-<img width="832" height="480" alt="image" src="https://github.com/user-attachments/assets/8aa7ec95-bb12-4ce9-a440-de50f7c83a9b" />
 <img width="1200" height="615" alt="image" src="https://github.com/user-attachments/assets/4e1f83a4-a1b0-442a-91c9-c6fe03115a28" />
-<img width="832" height="480" alt="image" src="https://github.com/user-attachments/assets/509b93b1-257c-414a-9f6b-dc45ace53174" />
 
 ## ✨ 主要機能
 
