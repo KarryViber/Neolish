@@ -271,8 +271,7 @@ prisma/
 ## 📞 联系我们
 
 如有问题或建议，请通过以下方式联系：
-- 项目Issues: [GitHub Issues](https://github.com/your-repo/issues)
-- 邮箱: your-email@example.com
+- 邮箱: karry.viber@gmail.com
 
 ---
 
