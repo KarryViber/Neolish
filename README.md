@@ -270,9 +270,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-For questions or suggestions, please contact us through:
-- Project Issues: [GitHub Issues](https://github.com/your-repo/issues)
-- Email: your-email@example.com
+For questions or suggestions, please contact me through:
+- Email: karry.viber@gmail.com
 
 ---
 
