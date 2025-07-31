@@ -271,8 +271,7 @@ prisma/
 ## 📞 お問い合わせ
 
 質問や提案については、以下の方法でお問い合わせください：
-- プロジェクトIssues: [GitHub Issues](https://github.com/your-repo/issues)
-- メール: your-email@example.com
+- メール: karry.viber@gmail.com
 
 ---
 
